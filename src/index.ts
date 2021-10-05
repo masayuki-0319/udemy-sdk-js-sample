@@ -1,0 +1,9 @@
+console.log('ハロー１');
+console.log('ハロー２');
+console.log('ハロー３');
+console.log('ハロー４');
+console.log('ハロー５');
+console.log('ハロー６');
+console.log('ハロー７');
+console.log('ハロー８');
+console.log('ハロー９');
