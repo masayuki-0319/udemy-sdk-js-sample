@@ -9,7 +9,7 @@
     ],
     "esModuleInterop": true,
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./out",
     "sourceMap": true,
     "strict": true,
     "experimentalDecorators": true,
