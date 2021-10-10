@@ -40,9 +40,9 @@ type AllKey = {
 //
 type SurveyAnswer = {
   _class: 'survey_user_answer';
-  (k: typeof surveyAnswerKey[number]): any;
+  (k: typeof notCompatible[number]): any;
 };
-const surveyAnswerKey = [
+const notCompatible = [
   'answer_freeform',
   'answer_option_id',
   'answer_option_text',

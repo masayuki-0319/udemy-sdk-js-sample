@@ -34,10 +34,10 @@ type DefaultKey = {
 };
 
 type AllKey = {
-  (key: typeof containKeys[number]): any;
+  (key: typeof notCompatible[number]): any;
 };
 
-const containKeys = [
+const notCompatible = [
   'content_summary',
   'course',
   'curriculum_url',

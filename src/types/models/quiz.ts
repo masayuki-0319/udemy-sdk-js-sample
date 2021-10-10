@@ -29,10 +29,10 @@ type DefaultKey = {
 };
 
 type AllKey = {
-  (key: typeof containKeys[number]): any;
+  (key: typeof notCompatible[number]): any;
 };
 
-const containKeys = [
+const notCompatible = [
   'changelog',
   'content_details',
   'content_summary',

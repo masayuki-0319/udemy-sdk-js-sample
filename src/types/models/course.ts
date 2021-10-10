@@ -41,13 +41,13 @@ type DefaultKey = {
 type AllKey = {
   primary_category: Category;
   primary_subcategory: SubCategory;
-  (k: typeof cantainKeys[number]): any;
+  (k: typeof notCompatible[number]): any;
 };
 
 //
 // TODO: 数が非常に多いため対応省略 ( 使われそうな key から実装していく )
 //
-const cantainKeys = [
+const notCompatible = [
   'alternate_redirect_course_id',
   'apple_in_app_price_detail',
   'apple_in_app_product_id',

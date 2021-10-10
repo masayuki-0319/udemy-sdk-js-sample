@@ -22,10 +22,10 @@ type DefaultKey = {
 };
 
 type AllKey = {
-  (key: typeof containKeys[number]): any;
+  (key: typeof notCompatible[number]): any;
 };
 
-const containKeys = [
+const notCompatible = [
   'description',
   'gt_assignments',
   'object_index',
