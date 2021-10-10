@@ -1,5 +1,6 @@
 import { Aggregations } from './aggregations';
 import { Course } from './models/course';
+import { CourseReview } from './models/courseReview';
 
 type ListResponse<T> = {
   count: number;
@@ -14,3 +15,5 @@ export type CourseListResponse = {
 } & ListResponse<Course>;
 
 export type CourseDetailResponse = Course;
+
+export type CourseReviewListResponse = ListResponse<CourseReview>;
