@@ -1,5 +1,5 @@
-import { Category } from './category';
-import { SubCategory } from './subCategory';
+import { CourseCategory } from './courseCategory';
+import { CourseSubcategory } from './CourseSubcategory';
 import { User } from './user';
 
 export type Course = BaseKey &
@@ -39,8 +39,8 @@ type DefaultKey = {
 };
 
 type AllKey = {
-  primary_category: Category;
-  primary_subcategory: SubCategory;
+  primary_category: CourseCategory;
+  primary_subcategory: CourseSubcategory;
   (k: typeof notCompatible[number]): any;
 };
 

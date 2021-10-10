@@ -1,4 +1,4 @@
-import { Category } from './category';
+import { CourseCategory } from './courseCategory';
 import { User } from './user';
 
 export type CourseReview = BaseKey &
@@ -27,7 +27,7 @@ type DefaultKey = {
 };
 
 type AllKey = {
-  course: Category;
+  course: CourseCategory;
   response: any;
   location: any;
   survey_answers: SurveyAnswer[];
