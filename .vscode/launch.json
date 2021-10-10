@@ -7,6 +7,10 @@
       "name": "Launch Program",
       "cwd": "${workspaceFolder}",
       "program": "${file}",
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js",
+        "!**/node_modules/**"
+      ],
       "preLaunchTask": "Compile TypeScript",
       "console": "integratedTerminal"
     }

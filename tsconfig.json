@@ -1,35 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2018",
-    "module": "commonjs",
+    "target": "es2020",
+    "module": "es2020",
     "moduleResolution": "node",
-    "lib": [
-      "es6",
-      "dom"
-    ],
-    "esModuleInterop": true,
-    "rootDir": "./src",
-    "outDir": "./out",
+    "rootDir": "src",
+    "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./src/*"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "types": [
-      "@types/node",
-      "jest"
-    ]
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true
   },
   "include": [
-    "src"
+    "./src/**/*.ts"
   ],
   "exclude": [
     "node_modules",
