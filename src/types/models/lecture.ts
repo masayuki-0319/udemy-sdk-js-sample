@@ -1,16 +1,16 @@
 export type Lecture = BaseKey &
-  Partial<MinimumKey> &
+  Partial<MinKey> &
   Partial<DefaultKey> &
   Partial<AllKey>;
 
-export type LectureKeys = keyof MinimumKey | keyof DefaultKey | keyof AllKey;
+export type LectureKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
 
 type BaseKey = {
   _class: 'lecture';
   id: number;
 };
 
-type MinimumKey = {
+type MinKey = {
   title: string;
   created: string;
 };

@@ -2,14 +2,11 @@ import { Category } from './category';
 import { User } from './user';
 
 export type CourseReview = BaseKey &
-  Partial<MinimumKey> &
+  Partial<MinKey> &
   Partial<DefaultKey> &
   Partial<AllKey>;
 
-export type CourseReviewKeys =
-  | keyof MinimumKey
-  | keyof DefaultKey
-  | keyof AllKey;
+export type CourseReviewKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
 
 // MEMO: Time は ISO 8601 ( e.g. '2021-09-28T08:24:03Z' )
 type BaseKey = {
@@ -17,7 +14,7 @@ type BaseKey = {
   id: number;
 };
 
-type MinimumKey = {
+type MinKey = {
   content: string;
   rating: number;
   created: string;

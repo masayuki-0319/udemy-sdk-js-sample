@@ -1,16 +1,16 @@
 export type Quiz = BaseKey &
-  Partial<MinimumKey> &
+  Partial<MinKey> &
   Partial<DefaultKey> &
   Partial<AllKey>;
 
-export type QuizKeys = keyof MinimumKey | keyof DefaultKey | keyof AllKey;
+export type QuizKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
 
 type BaseKey = {
   _class: 'quiz';
   id: number;
 };
 
-type MinimumKey = {
+type MinKey = {
   title: string;
   type: 'coding-exercise' | string;
   created: string;

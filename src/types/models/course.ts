@@ -3,18 +3,18 @@ import { SubCategory } from './subCategory';
 import { User } from './user';
 
 export type Course = BaseKey &
-  Partial<MinimumKey> &
+  Partial<MinKey> &
   Partial<DefaultKey> &
   Partial<AllKey>;
 
-export type CourseKeys = keyof MinimumKey | keyof DefaultKey | keyof AllKey;
+export type CourseKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
 
 type BaseKey = {
   _class: 'course';
   id: number;
 };
 
-type MinimumKey = {
+type MinKey = {
   title: string;
   url: string;
 };

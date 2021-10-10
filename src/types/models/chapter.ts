@@ -1,16 +1,16 @@
 export type Chapter = BaseKey &
-  Partial<MinimumKey> &
+  Partial<MinKey> &
   Partial<DefaultKey> &
   Partial<AllKey>;
 
-export type ChapterKeys = keyof MinimumKey | keyof DefaultKey | keyof AllKey;
+export type ChapterKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
 
 type BaseKey = {
   _class: 'chapter';
   id: number;
 };
 
-type MinimumKey = {
+type MinKey = {
   created: string;
 };
 
