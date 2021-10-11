@@ -1,0 +1,8 @@
+{
+  "_class": "course_subcategory",
+  "id": 8,
+  "title": "Web Development",
+  "url": "/courses/development/web-development/",
+  "icon_class": "udi udi-web-development",
+  "type": "subcategory"
+}

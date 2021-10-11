@@ -1,0 +1,67 @@
+{
+  "_class": "course_subcategory",
+  "id": 8,
+  "title": "Web Development",
+  "url": "/courses/development/web-development/",
+  "icon_class": "udi udi-web-development",
+  "type": "subcategory",
+  "names": [
+    {
+      "locale_id": "en_US",
+      "text": "Web Development Online Courses: Build and Enhance Websites",
+      "name_type": "seo"
+    },
+    {
+      "locale_id": "en_US",
+      "text": "Web Development",
+      "name_type": "web"
+    }
+  ],
+  "urls": [
+    {
+      "locale_id": "en_US",
+      "text": "web-development",
+      "url_type": "canonical",
+      "url": "/courses/development/web-development/"
+    }
+  ],
+  "descriptions": [
+    {
+      "locale_id": "en_US",
+      "text": "Online courses for building websites from scratch using popular tools and languages like HTML, CSS, Python, JavaScript, and more.",
+      "description_type": "seo",
+      "page_type": "paid"
+    },
+    {
+      "locale_id": "en_US",
+      "text": "Learn web development skills to build fully functioning websites.",
+      "description_type": "web",
+      "page_type": "paid"
+    }
+  ],
+  "stats": [],
+  "unique_title": "Web Development (Development)",
+  "roles": [
+    "marketplace"
+  ],
+  "related_pages": [],
+  "highlighted_course_review": null,
+  "is_seo_indexed": true,
+  "question_answers": [],
+  "title_cleaned": "web-development",
+  "channel_id": 1656,
+  "sort_order": 10,
+  "category": {
+    "_class": "course_category",
+    "id": 288,
+    "title": "Development",
+    "url": "/courses/development/",
+    "icon_class": "udi udi-development",
+    "type": "category"
+  },
+  "avg_rating": 4.497797977543217,
+  "avg_rating_recent": 4.318165573850998,
+  "icon_code": "e68e",
+  "tracking_object_type": "scat",
+  "tracking_id": "uHANMoXLS4GFtu3w84weLw"
+}

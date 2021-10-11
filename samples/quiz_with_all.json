@@ -1,0 +1,38 @@
+{
+  "_class": "quiz",
+  "id": 4565626,
+  "title": "HTML Challenge",
+  "type": "coding-exercise",
+  "created": "2018-12-25T10:52:24Z",
+  "description": "",
+  "title_cleaned": "",
+  "is_published": true,
+  "sort_order": 503,
+  "object_index": 1,
+  "is_draft": false,
+  "version": 1,
+  "duration": 0,
+  "pass_percent": 70,
+  "user": {
+    "_class": "user",
+    "title": "Dr. Angela Yu",
+    "name": "Dr. Angela",
+    "display_name": "Dr. Angela Yu"
+  },
+  "course": {
+    "_class": "course",
+    "id": 1565838,
+    "title": "The Complete 2021 Web Development Bootcamp",
+    "url": "/course/the-complete-web-development-bootcamp/"
+  },
+  "content_summary": "1 question",
+  "num_assessments": 1,
+  "url": "/course/the-complete-web-development-bootcamp/learn/quiz/4565626",
+  "changelog": null,
+  "requires_draft": false,
+  "content_details": {
+    "length": 1,
+    "unit": "questions"
+  },
+  "is_randomized": false
+}

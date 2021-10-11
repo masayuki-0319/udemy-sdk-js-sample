@@ -1,0 +1,85 @@
+{
+  "count": 335,
+  "next": "https://www.udemy.com/api-2.0/courses/3197760/public-curriculum-items/?fields%5Blecture%5D=%40min&page=2",
+  "previous": null,
+  "results": [
+    {
+      "_class": "chapter",
+      "id": 4804192,
+      "created": "2020-06-02T23:40:34Z",
+      "sort_order": 334,
+      "title": "Introduction",
+      "description": "",
+      "is_published": true
+    },
+    {
+      "_class": "lecture",
+      "id": 20266300,
+      "title": "10 Creative Projects Overview",
+      "created": "2020-06-04T17:06:15Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 26614906,
+      "title": "Figma Projects Overview",
+      "created": "2021-05-20T16:49:40Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 23098964,
+      "title": "Photoshop Project Overview",
+      "created": "2020-11-02T15:48:08Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 23099052,
+      "title": "Bootstrap 5 Project Overview",
+      "created": "2020-11-02T15:53:56Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 25975970,
+      "title": "Logo Design Project Overview",
+      "created": "2021-04-13T04:49:06Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 20711584,
+      "title": "Course Breakdown",
+      "created": "2020-06-27T21:57:48Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 5142256,
+      "created": "2020-08-08T17:25:11Z",
+      "sort_order": 327,
+      "title": "Download All Course Materials",
+      "description": "In this section we are downloading course material",
+      "is_published": true
+    },
+    {
+      "_class": "lecture",
+      "id": 20230252,
+      "title": "10 Creative Projects Coding Files",
+      "created": "2020-06-03T00:01:11Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 21551764,
+      "title": "Photoshop Files and Coding File",
+      "created": "2020-08-08T17:29:32Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 20230246,
+      "title": "All Coding Lectures— 166 Coding Files",
+      "created": "2020-06-03T00:00:13Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 21552182,
+      "title": "User Experience Design PDF — 19 Slides",
+      "created": "2020-08-08T17:57:01Z"
+    }
+  ]
+}

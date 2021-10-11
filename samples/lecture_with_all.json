@@ -1,0 +1,41 @@
+{
+  "_class": "lecture",
+  "id": 12638830,
+  "title": "What You'll Get in This Course",
+  "created": "2018-11-21T09:16:08Z",
+  "description": "",
+  "title_cleaned": "what-youll-get-in-this-course",
+  "is_published": true,
+  "transcript": "",
+  "is_downloadable": false,
+  "is_free": true,
+  "asset": {
+    "title": "Udemy Web Dev Promo.mp4",
+    "asset_type": "Video",
+    "_class": "asset",
+    "created": "2018-11-21T09:15:57Z",
+    "id": 15359874
+  },
+  "sort_order": 532,
+  "can_be_previewed": true,
+  "user": {
+    "display_name": "Dr. Angela Yu",
+    "title": "Dr. Angela Yu",
+    "name": "Dr. Angela",
+    "_class": "user"
+  },
+  "course": {
+    "url": "/course/the-complete-web-development-bootcamp/",
+    "title": "The Complete 2021 Web Development Bootcamp",
+    "id": 1565838,
+    "_class": "course"
+  },
+  "content_summary": "03:09",
+  "has_caption": true,
+  "num_supplementary_assets": 0,
+  "supplementary_assets": [],
+  "object_index": 1,
+  "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12638830",
+  "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+  "preview_url": "/new-lecture/12638830/popup/"
+}

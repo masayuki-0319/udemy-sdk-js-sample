@@ -1,0 +1,208 @@
+{
+  "_class": "chapter",
+  "id": 2281624,
+  "created": "2018-02-22T12:02:39Z",
+  "sort_order": 533,
+  "title": "Front-End Web Development",
+  "description": "web development course introduction.",
+  "is_published": true,
+  "title_cleaned": "",
+  "object_index": 1,
+  "course": {
+    "_class": "course",
+    "title": "The Complete 2021 Web Development Bootcamp",
+    "url": "/course/the-complete-web-development-bootcamp/",
+    "id": 1565838
+  },
+  "gt_assignments": [
+    {
+      "_class": "gt_assignment",
+      "id": 43266,
+      "gt_instance": {
+        "filled_instance_props": [
+          {
+            "prop_type": "text_field",
+            "prop_value": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+            "prop_name": "description",
+            "prop_id": 50
+          },
+          {
+            "prop_type": "bool",
+            "prop_value": true,
+            "prop_name": "visible",
+            "prop_id": 52
+          },
+          {
+            "prop_type": "text_field",
+            "prop_value": "Web Development",
+            "prop_name": "display_name",
+            "prop_id": 16
+          }
+        ],
+        "_class": "course_label",
+        "id": 8322,
+        "default_name": "Web Development",
+        "schema": {
+          "_class": "gt_schema",
+          "assignable_entities": [
+            {
+              "_class": "gt_assignable_to_entity",
+              "id": 4,
+              "entity": {
+                "model": "user",
+                "_class": "django_content_type",
+                "id": 36
+              },
+              "entity_schema": null,
+              "assignment_types": [],
+              "is_approval_needed": true
+            },
+            {
+              "_class": "gt_assignable_to_entity",
+              "id": 6,
+              "entity": {
+                "model": "course",
+                "_class": "django_content_type",
+                "id": 40
+              },
+              "entity_schema": null,
+              "assignment_types": [],
+              "is_approval_needed": true
+            },
+            {
+              "_class": "gt_assignable_to_entity",
+              "id": 8,
+              "entity": {
+                "model": "lecture",
+                "_class": "django_content_type",
+                "id": 352
+              },
+              "entity_schema": null,
+              "assignment_types": [],
+              "is_approval_needed": true
+            },
+            {
+              "_class": "gt_assignable_to_entity",
+              "id": 36,
+              "entity": {
+                "model": "chapter",
+                "_class": "django_content_type",
+                "id": 348
+              },
+              "entity_schema": null,
+              "assignment_types": [
+                {
+                  "_class": "gt_assignment_type",
+                  "id": 2,
+                  "name": "default"
+                }
+              ],
+              "is_approval_needed": true
+            },
+            {
+              "_class": "gt_assignable_to_entity",
+              "id": 51,
+              "entity": {
+                "model": "gtinstance",
+                "_class": "django_content_type",
+                "id": 2108
+              },
+              "entity_schema": {
+                "name_cleaned": "occupation",
+                "dependent_on_schema": null,
+                "_class": "gt_schema",
+                "id": 32,
+                "name": "Occupation"
+              },
+              "assignment_types": [
+                {
+                  "_class": "gt_assignment_type",
+                  "id": 3,
+                  "name": "Representative Topic"
+                },
+                {
+                  "_class": "gt_assignment_type",
+                  "id": 5,
+                  "name": "Associated Topic"
+                },
+                {
+                  "_class": "gt_assignment_type",
+                  "id": 2,
+                  "name": "default"
+                }
+              ],
+              "is_approval_needed": true
+            }
+          ],
+          "id": 4,
+          "dependent_on_schema": null,
+          "description": "Thuongvu is using this to prototype",
+          "type": "instance",
+          "name_cleaned": "course_label",
+          "available_props": [
+            {
+              "_class": "gt_schema_has_instance_prop",
+              "id": 16,
+              "prop": {
+                "type": "text_field",
+                "options": null,
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "id": 16,
+                "name_cleaned": "display_name",
+                "description": "Display name of the instance"
+              },
+              "is_required": true,
+              "is_default_name": true,
+              "aggregation_type": "terms"
+            },
+            {
+              "_class": "gt_schema_has_instance_prop",
+              "id": 54,
+              "prop": {
+                "type": "text_field",
+                "options": null,
+                "_class": "gt_instance_prop",
+                "name": "Description",
+                "id": 50,
+                "name_cleaned": "description",
+                "description": "User-facing description"
+              },
+              "is_required": false,
+              "is_default_name": false,
+              "aggregation_type": "terms"
+            },
+            {
+              "_class": "gt_schema_has_instance_prop",
+              "id": 56,
+              "prop": {
+                "type": "bool",
+                "options": null,
+                "_class": "gt_instance_prop",
+                "name": "Visible",
+                "id": 52,
+                "name_cleaned": "visible",
+                "description": "Visible to users on the website"
+              },
+              "is_required": true,
+              "is_default_name": false,
+              "aggregation_type": "terms"
+            }
+          ],
+          "secondary_sort": null,
+          "primary_sort": {
+            "type": "text_field",
+            "name_cleaned": "display_name",
+            "_class": "gt_instance_prop",
+            "id": 16,
+            "name": "Display Name"
+          },
+          "name": "Course_Label"
+        },
+        "created": "2020-05-09T08:03:24Z",
+        "modified": "2021-10-05T05:20:12Z",
+        "type_name": "topic"
+      }
+    }
+  ]
+}

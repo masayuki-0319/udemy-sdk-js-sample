@@ -1,0 +1,475 @@
+{
+  "_class": "course",
+  "id": 3197760,
+  "title": "UI UX Design Hybrid from Figma to HTML CSS and JavaScript",
+  "url": "/course/uxdevelopment/",
+  "is_paid": true,
+  "price": "¥2,400",
+  "price_detail": {
+    "amount": 2400,
+    "currency": "JPY",
+    "price_string": "¥2,400",
+    "currency_symbol": "¥"
+  },
+  "price_serve_tracking_id": "VqQfKGijQLSnH1jtSCt5JA",
+  "visible_instructors": [
+    {
+      "_class": "user",
+      "title": "Hossein Boroji",
+      "name": "Hossein",
+      "display_name": "Hossein Boroji",
+      "job_title": "UX Developer",
+      "image_50x50": "https://img-c.udemycdn.com/user/50x50/42805500_d1d0_2.jpg",
+      "image_100x100": "https://img-c.udemycdn.com/user/100x100/42805500_d1d0_2.jpg",
+      "initials": "HB",
+      "url": "/user/hossein-shirazi/"
+    }
+  ],
+  "image_125_H": "https://img-c.udemycdn.com/course/125_H/3197760_98b9_4.jpg",
+  "image_240x135": "https://img-c.udemycdn.com/course/240x135/3197760_98b9_4.jpg",
+  "is_practice_test_course": false,
+  "image_480x270": "https://img-c.udemycdn.com/course/480x270/3197760_98b9_4.jpg",
+  "published_title": "uxdevelopment",
+  "tracking_id": "IFm21nHIQZWgh4wNlrAm2Q",
+  "description": "<p><strong>From&nbsp;UX&nbsp;Theories to UX&nbsp;Engineering in 1 place</strong></p><ul><li><p>Build everything with me from UI Design to Web Development</p></li><li><p>Join me and become a Figma plugin frenzy power user</p></li><li><p>Master industry standard Design and Development processes</p><p><br></p></li></ul><p><strong>Cool Projects</strong></p><ul><li><p>Create complex web design layouts with Figma Auto Layout and use pure CSS Grid and Flexbox</p></li><li><p>Transform Photoshop into HTML mark up and style it with CSS</p></li><li><p>Morph SVG with pure vanilla JavaScript</p></li><li><p>Trigger JavaScript DOM events and control CSS animations with JavaScript</p></li><li><p>Learn interaction design with CSS Transitions and Animation</p></li><li><p>Develop production ready responsive design with Bootstrap 5 Grid system</p></li><li><p>Automate your brand style guide as a visual designer</p></li><li><p>Use Design Principles to create Logo and YouTube thumbnail videos with Affinity Designer</p></li></ul><p><br></p><p><strong>Testimonials</strong></p><p><br></p><ul><li><p>Ebru Aksoy \"Awesome course! I have already had some knowledge on the coding side of web development but I felt that I needed some UX/UI point of view, so <strong>I ended up at Hossein's course and I couldn't be more happier</strong>! He <strong>expanded my imagination</strong> with especially the SVG section and the <strong>10 great projects at the end</strong>. I also got to brush up on my skills of CSS &amp; JavaScript with his elaborately structured teaching style. <strong>I will definitely keep the notes I received from this course by my side</strong> while working on further projects. <strong>I definitely recommend</strong>. Thanks a lot, Hossein\" ⭐️⭐️⭐️⭐️⭐️</p><p><br></p></li></ul><ul><li><p>Omar A — \"I wish I took this course instead of wasting so many countless hours on others. As someone trying to learn UX/UI/Front-End,<strong> this is brilliant</strong>. Super logical course structure and flow. <strong>Would give ten stars if I could</strong>. Thanks Mr. Hossein.\" ⭐️⭐️⭐️⭐️⭐️ </p></li></ul><p><br></p><ul><li><p>Maria Beatriz —<strong> </strong>\"I've been really enjoying this course. <strong>It's one of the best I've done on web dev and UX/UI.</strong> The content is simple, original, and super useful. You have to try it!\" ⭐️⭐️⭐️⭐️⭐️</p></li></ul><p><br></p><ul><li><p>Darian Brandt —<strong> </strong>\"I <strong>loved the simple, graphical and memorable UI and UX design notes </strong>which taught me things I didn't even know I needed to know. The entire course is<strong> very easy to understand but surprisingly in-depth</strong>. I'm learning a lot more than I expected, thanks\" ⭐️⭐️⭐️⭐️⭐️</p></li></ul><p><br></p><ul><li><p>Prem Sager<strong> </strong>—<strong> </strong>\"This is awesome and a <strong>must-do course for all the frontend developers</strong>. The <strong>UX part was very well researched and presented</strong>. HTML was a really good refresher. Completed CSS and JS sections, this content is amazing and really boosts my skill set.\" ⭐️⭐️⭐️⭐️⭐️</p></li></ul><p><br></p><ul><li><p>Jayed Mahmud<strong> </strong>— <strong>\"</strong>I wanted to learn coding which is related to Website design which is implemented quite nicely in this course. <strong>This course starts with visualization which is absolutely brilliant</strong>. I am still continuing but so far this is a great one. Thanks.\" ⭐️⭐️⭐️⭐️⭐️</p></li></ul><p><br></p><ul><li><p>Ebe David Temiloluwa<strong> </strong>—\"In this course, <strong>I got the kind of frontend development designs I have never come across before in the projects</strong>. If you're looking for new type of designs produced with good css and javascript, this is the course for you.\" ⭐️⭐️⭐️⭐️⭐️</p></li></ul><p><br></p><ul><li><p>Jeisson Zambrano — \"This course targets exactly what I came here looking for. The <strong>explanations are clear and focused on the business perspective of UX/UI development</strong>.\" ⭐️⭐️⭐️⭐️⭐️ </p></li></ul><p><br></p><ul><li><p>Pratham Bhatter — This has to be <strong>one of the best course on Udemy for UI UX</strong>. Not only you learn the fundamentals of UI UX, but also build a good foundation about Web Design and Frontend Development. As an instructor, <strong>Hossein did an amazing job explaining the concepts and the beautiful notes</strong> he provided were very handy too. I would definitely recommend this course to someone who is interested in UI UX Design and Development and also wants to build a solid foundation in this field. Thank you Hossein :) ⭐️⭐️⭐️⭐️⭐️ </p></li></ul>",
+  "headline": "Learn how to become a Full-Stack Designer with User Interface Design, User Experience Design, Web Development, Bootstrap",
+  "num_subscribers": 3331,
+  "caption_locales": [
+    {
+      "_class": "locale",
+      "locale": "en_US",
+      "title": "English (US)",
+      "english_title": "English (US)"
+    }
+  ],
+  "discount": {
+    "price_serve_tracking_id": "VqQfKGijQLSnH1jtSCt5JA",
+    "price": {
+      "amount": 1920,
+      "currency": "JPY",
+      "price_string": "¥1,920",
+      "currency_symbol": "¥"
+    },
+    "list_price": {
+      "amount": 2400,
+      "currency": "JPY",
+      "price_string": "¥2,400",
+      "currency_symbol": "¥"
+    },
+    "saving_price": {
+      "amount": 480,
+      "currency": "JPY",
+      "price_string": "¥480",
+      "currency_symbol": "¥"
+    },
+    "has_discount_saving": true,
+    "discount_percent": 20,
+    "discount_percent_for_display": 20,
+    "buyable": {
+      "id": 3197760,
+      "type": "course"
+    },
+    "campaign": {
+      "code": "LEARNNEWSKILLS",
+      "end_time": "2021-10-10T09:57:53-07:00",
+      "is_instructor_created": false,
+      "is_public": true,
+      "start_time": "2021-04-19T16:00:00Z",
+      "campaign_type": "deal",
+      "uses_remaining": null,
+      "maximum_uses": null
+    },
+    "code": "LEARNNEWSKILLS",
+    "is_public": true
+  },
+  "discount_price": {
+    "amount": 1920,
+    "currency": "JPY",
+    "price_string": "¥1,920",
+    "currency_symbol": "¥"
+  },
+  "avg_rating": 4.4615383,
+  "avg_rating_recent": 4.4324985,
+  "rating": 4.4324985,
+  "num_reviews": 389,
+  "num_reviews_recent": 78,
+  "rating_distribution": [
+    {
+      "count": 5,
+      "rating": 1
+    },
+    {
+      "count": 3,
+      "rating": 2
+    },
+    {
+      "count": 34,
+      "rating": 3
+    },
+    {
+      "count": 97,
+      "rating": 4
+    },
+    {
+      "count": 236,
+      "rating": 5
+    }
+  ],
+  "favorite_time": null,
+  "archive_time": null,
+  "earnings": "$0.00",
+  "completion_ratio": 0,
+  "is_wishlisted": false,
+  "num_quizzes": 0,
+  "num_lectures": 313,
+  "num_published_lectures": 313,
+  "num_published_quizzes": 0,
+  "num_curriculum_items": 313,
+  "num_of_published_curriculum_objects": 313,
+  "num_cpe_credits": null,
+  "is_private": false,
+  "num_practice_tests": 0,
+  "num_published_practice_tests": 0,
+  "original_price_text": "$19.99",
+  "quality_status": "approved",
+  "status_label": "Live",
+  "can_edit": false,
+  "features": {
+    "_class": "course",
+    "discussions_create": true,
+    "discussions_view": true,
+    "discussions_replies_create": true,
+    "enroll": true,
+    "reviews_create": true,
+    "reviews_view": true,
+    "reviews_responses_create": true,
+    "announcements_comments_view": true,
+    "educational_announcements_create": true,
+    "promotional_announcements_create": true,
+    "promotions_create": true,
+    "promotions_view": true,
+    "students_view": true
+  },
+  "gift_url": "https://www.udemy.com/gift/uxdevelopment/",
+  "num_invitation_requests": 0,
+  "notification_settings": {},
+  "is_banned": false,
+  "is_published": true,
+  "intended_category": {
+    "_class": "course_category",
+    "id": 288,
+    "title": "Development",
+    "url": "/courses/development/",
+    "icon_class": "udi udi-development",
+    "type": "category",
+    "title_cleaned": "development",
+    "channel_id": 1640
+  },
+  "image_48x27": "https://img-c.udemycdn.com/course/48x27/3197760_98b9_4.jpg",
+  "image_50x50": "https://img-c.udemycdn.com/course/50x50/3197760_98b9_4.jpg",
+  "image_75x75": "https://img-c.udemycdn.com/course/75x75/3197760_98b9_4.jpg",
+  "image_96x54": "https://img-c.udemycdn.com/course/96x54/3197760_98b9_4.jpg",
+  "image_100x100": "https://img-c.udemycdn.com/course/100x100/3197760_98b9_4.jpg",
+  "image_200_H": "https://img-c.udemycdn.com/course/200_H/3197760_98b9_4.jpg",
+  "image_304x171": "https://img-c.udemycdn.com/course/304x171/3197760_98b9_4.jpg",
+  "image_750x422": "https://img-c.udemycdn.com/course/750x422/3197760_98b9_4.jpg",
+  "has_certificate": true,
+  "primary_category": {
+    "_class": "course_category",
+    "id": 288,
+    "title": "Development",
+    "url": "/courses/development/",
+    "icon_class": "udi udi-development",
+    "type": "category",
+    "title_cleaned": "development",
+    "channel_id": 1640
+  },
+  "primary_subcategory": {
+    "_class": "course_subcategory",
+    "id": 8,
+    "title": "Web Development",
+    "url": "/courses/development/web-development/",
+    "icon_class": "udi udi-web-development",
+    "type": "subcategory",
+    "title_cleaned": "web-development",
+    "channel_id": 1656
+  },
+  "is_enrollable_on_mobile": false,
+  "is_in_any_ufb_content_collection": true,
+  "is_in_user_subscription": false,
+  "is_in_subscribed_content_collections": false,
+  "locale": {
+    "_class": "locale",
+    "locale": "en_US",
+    "title": "English (US)",
+    "english_title": "English (US)",
+    "simple_english_title": "English"
+  },
+  "has_closed_caption": true,
+  "caption_languages": [
+    "English [Auto]"
+  ],
+  "created": "2020-06-02T23:27:43Z",
+  "instructional_level": "All Levels",
+  "instructional_level_simple": "All Levels",
+  "estimated_content_length": 1852,
+  "content_info": "31 total hours",
+  "content_info_short": "31 hours",
+  "content_length_practice_test_questions": 0,
+  "requirements_data": {
+    "items": [
+      "No prior HTML, CSS, JavaScript Bootstrap knowledge needed",
+      "No prior UI UX and graphic knowledge needed",
+      "Free trial software of Affinity Designer",
+      "Use free version of Figma"
+    ]
+  },
+  "what_you_will_learn_data": {
+    "items": [
+      "Design 3000 Figma interactive components variants and FigJam UX theories",
+      "Transform Figma components into live HTML CSS components",
+      "Become a unicorn UI UX Designer who knows design and code",
+      "Build scalable design systems with Figma and automate manual processes",
+      "Seamlessly inspect and build your Figma Components for development handoff",
+      "Responsive UI Development with HTML CSS JavaScript Bootstrap 5 grid system"
+    ]
+  },
+  "who_should_attend_data": {
+    "items": [
+      "Web Developer who want develop Figma components seamlessly",
+      "UI UX Designers who want to learn how to code using HTML CSS JavaScript"
+    ]
+  },
+  "is_available_on_google_app": true,
+  "organization_id": null,
+  "google_in_app_purchase_price_text": "$15.99",
+  "promo_asset": {
+    "_class": "asset",
+    "id": 33683502,
+    "asset_type": "Video",
+    "title": "NEW.mp4",
+    "title_cleaned": "newmp4",
+    "description": "",
+    "length": 39,
+    "status": 1,
+    "download_urls": {
+      "Video": [
+        {
+          "type": "video/mp4",
+          "label": "720",
+          "file": "https://mp4-c.udemycdn.com/2021-05-20_17-44-36-7b1a8b73b1224f48c6b9816a7a5bf94b/1/WebHD_720p.mp4?Expires=1633879673&Signature=f2s6kBOvoNehqUukbbFo2VZk2IXjMo4grupQEkj1kIOPdF4sLp~rp2QVmZPKDo6CrRZVDUiOeg3-Me7aGfANlyQa-Q9HxkImznAVwFN8OoXOKoCTnIC1ffh6wOwAzCDsdFuINhStRMQgXppMmn71GPl6tS7EUWkOE8eK3mRMGdHWzw6J4XA6q0kdDCT6-la3XZQtet~G1Ptw6HtYOS~kbb2OWicbx9dM9txWS2HTqFHeo1FilWwVzIsuukd9iIhGn43KMgwvpNOv2PVjN1DcgrBqeWd30bZcPB5ZvoFi7cH24FtDXtbxu7D-X68O1RPG42LW2F1Rb4~Ypn4bIPepXg__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
+        },
+        {
+          "type": "video/mp4",
+          "label": "480",
+          "file": "https://mp4-c.udemycdn.com/2021-05-20_17-44-36-7b1a8b73b1224f48c6b9816a7a5bf94b/1/WebHD_480.mp4?Expires=1633879673&Signature=MI6hH9InyOwn12FsKtF2YZXLf-e8ysZBgihix~3BozSi6Rl4Lllz0eUZxK8ZA4Hfzgsfve2csv0M93vjXZF~m6GvC231vX3EL8olUnbKpb1dDY-yAu~HM~ZolQmK5qqXCh7UYfdWU-CjSz4FkesK-omno~m1vtm~ITVJE53htpZWa~yF0XkuDpQvfUacHhMbtrM6YzF-NqsxlcZjEkNyqgAkIlrJCv4QPfgiibI66-eD1816zu~c2DuYzEOEL0arc5ajMBffZ5~fSWPqaqga4Y4cu0w7~6GRztOiqI952ufZOlxOJRkC-YEJMD2QgxPxrGClCdnwgBCLnuzRGTgl8w__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
+        },
+        {
+          "type": "video/mp4",
+          "label": "360",
+          "file": "https://mp4-c.udemycdn.com/2021-05-20_17-44-36-7b1a8b73b1224f48c6b9816a7a5bf94b/1/WebHD.mp4?Expires=1633879673&Signature=hjy1342VaPUtt2kpvgdhhchmRiU2xL~rXQObO3A92HxCsKvhZXUFSdKnoqhGzfvGSmdtxb0KVAOfZWHO4Tue9XoSsAy7JjU-Ld~9A9Klzpml7cLwocnGnwqQ4jLCxjssEXSJMeCxmwT90j12kFZe9O1OSxngioiuzf7JUk8NDDzByi0GfKxROQzm3KhFWVd2zP3UM6O3-1rkjgjqTwav1b2Ernx3OyC6RcydpY41gvBNvTHMxot8P1yQK8xI3jL2jS68MuVYXodzkNPTYxOYdA41J5mm0q23JCdKS-uiSPe6B6Tic66Ji5D8Ofu5bAD5XB3R4v1~MdwWbUlaMiPrvg__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
+        },
+        {
+          "type": "video/mp4",
+          "label": "144",
+          "file": "https://mp4-c.udemycdn.com/2021-05-20_17-44-36-7b1a8b73b1224f48c6b9816a7a5bf94b/1/Web_144.mp4?Expires=1633879673&Signature=HE-nm9ECyi-4iq1LqnNSyY258oHEMe7ESmoLexjSSduH16skDoA6oHJz4Wvt37P76yKGpbVxkNqvxmB8V5i9QRV9Q7Kg4ehbgpFr8~86rrAyfE2uo~mFgkF~cSEqOfY1lxsxyeJUoAoXJpLfE5~pBxNyI5JPoPpkgJNhQHW5VTuAH-WeL~u9gW3YBD~Obr7CC4MbhBBMypOft4p3JMpudHhlRpuJFNvnNjWTtl18wQ-qSvUgcps0DP7IY9KCqgEgAGqcutu4w0oR2CgpmNrv300eYddYxj9Qf2aMRvcNCqfY9pqOrcFKSP7N03ACOw0ifmC4cAE5kE~BDBq6Pgd66w__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
+        }
+      ]
+    }
+  },
+  "is_user_subscribed": false,
+  "apple_in_app_product_id": "com.udemy.consumable.16",
+  "is_available_on_ios": true,
+  "google_in_app_product_id": "android.course.consumable.16",
+  "faq": [
+    {
+      "question": "How long do I have access to the course materials?",
+      "answer": "You can view and review the lecture materials indefinitely, like an on-demand channel."
+    },
+    {
+      "question": "Can I take my courses with me wherever I go?",
+      "answer": "Definitely! If you have an internet connection, courses on Udemy are available on any device at any time. If you don't have an internet connection, some instructors also let their students download course lectures. That's up to the instructor though, so make sure you get on their good side!"
+    }
+  ],
+  "apple_in_app_purchase_price_text": "$15.99",
+  "type_label": "course",
+  "google_in_app_price_detail": {
+    "amount": 15.99,
+    "currency": "USD",
+    "price_string": "$15.99",
+    "currency_symbol": "$"
+  },
+  "apple_in_app_price_detail": {
+    "amount": 15.99,
+    "currency": "USD",
+    "price_string": "$15.99",
+    "currency_symbol": "$"
+  },
+  "client_settings": {
+    "cpe_field_of_study": false,
+    "lecture_export_enabled": false,
+    "cpe_program_level": false,
+    "machine_cc_enabled": false,
+    "coding_exercises_enabled": false,
+    "is_cpe_compliant": false
+  },
+  "quality_review_process": {
+    "_class": "quality_review_process",
+    "id": 366348,
+    "status": "approved",
+    "score": 80,
+    "admin_rating": 7
+  },
+  "is_organization_only": false,
+  "is_cpe_compliant": false,
+  "cpe_field_of_study": null,
+  "cpe_program_level": null,
+  "was_ever_published": true,
+  "buyable_object_type": "course",
+  "published_time": "2020-06-30T20:38:05Z",
+  "is_marketing_boost_agreed": true,
+  "is_owned_by_instructor_team": false,
+  "is_owner_terms_banned": false,
+  "is_taking_disabled": false,
+  "content_length_video": 111056,
+  "checkout_url": "/cart/checkout/express/course/3197760/?discountCode=LEARNNEWSKILLS",
+  "prerequisites": [
+    "No prior HTML, CSS, JavaScript Bootstrap knowledge needed",
+    "No prior UI UX and graphic knowledge needed",
+    "Free trial software of Affinity Designer",
+    "Use free version of Figma"
+  ],
+  "objectives": [
+    "Design 3000 Figma interactive components variants and FigJam UX theories",
+    "Transform Figma components into live HTML CSS components",
+    "Become a unicorn UI UX Designer who knows design and code",
+    "Build scalable design systems with Figma and automate manual processes",
+    "Seamlessly inspect and build your Figma Components for development handoff",
+    "Responsive UI Development with HTML CSS JavaScript Bootstrap 5 grid system"
+  ],
+  "objectives_summary": [
+    "Design 3000 Figma interactive components variants and FigJam UX theories",
+    "Transform Figma components into live HTML CSS components",
+    "Become a unicorn UI UX Designer who knows design and code"
+  ],
+  "target_audiences": [
+    "Web Developer who want develop Figma components seamlessly",
+    "UI UX Designers who want to learn how to code using HTML CSS JavaScript"
+  ],
+  "last_accessed_time": null,
+  "enrollment_time": null,
+  "course_has_labels": [
+    {
+      "_class": "course_has_label",
+      "id": 1152932,
+      "label": {
+        "_class": "course_label",
+        "id": 5306,
+        "title": "CSS",
+        "url": "/topic/css/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "CSS"
+      },
+      "is_primary": false
+    },
+    {
+      "_class": "course_has_label",
+      "id": 1152934,
+      "label": {
+        "_class": "course_label",
+        "id": 5386,
+        "title": "User Experience Design",
+        "url": "/topic/user-experience-design/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "User Experience Design"
+      },
+      "is_primary": false
+    },
+    {
+      "_class": "course_has_label",
+      "id": 1152936,
+      "label": {
+        "_class": "course_label",
+        "id": 8172,
+        "title": "User Interface",
+        "url": "/topic/user-interface/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "User Interface"
+      },
+      "is_primary": false
+    },
+    {
+      "_class": "course_has_label",
+      "id": 1152938,
+      "label": {
+        "_class": "course_label",
+        "id": 8322,
+        "title": "Web Development",
+        "url": "/topic/web-development/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "Web Development"
+      },
+      "is_primary": true
+    }
+  ],
+  "bestseller_badge_content": null,
+  "badges": [],
+  "free_course_subscribe_url": null,
+  "is_recently_published": false,
+  "last_update_date": "2021-05-21",
+  "num_article_assets": 27,
+  "num_coding_exercises": 0,
+  "num_assignments": 0,
+  "num_additional_assets": 279,
+  "preview_url": "/course/3197760/preview/",
+  "landing_preview_as_guest_url": "/course/uxdevelopment/?instructorPreviewMode=guest",
+  "context_info": {
+    "category": {
+      "title": "Development",
+      "id": 288,
+      "tracking_object_type": "cat",
+      "url": "/courses/development/"
+    },
+    "subcategory": null,
+    "label": {
+      "id": 8322,
+      "tracking_object_type": "cl",
+      "topic_channel_url": "/topic/web-development/",
+      "title": "Web Development",
+      "display_name": "Web Development",
+      "url": "/topic/web-development/"
+    }
+  },
+  "has_sufficient_preview_length": true,
+  "has_org_only_setting": false,
+  "is_draft": false,
+  "common_review_attributes": [],
+  "subscription_locale": null,
+  "custom_category_ids": [],
+  "alternate_redirect_course_id": 0,
+  "is_approved": true,
+  "is_organization_eligible": true,
+  "instructor_status": {
+    "_class": "instructor_course_status",
+    "id": 66006,
+    "user": {
+      "_class": "user",
+      "title": "Hossein Boroji",
+      "name": "Hossein",
+      "display_name": "Hossein Boroji"
+    },
+    "status": 1,
+    "respond_time_frame": "48 hours",
+    "available_date": null
+  },
+  "available_features": [
+    "q_and_a_enabled",
+    "certificate"
+  ],
+  "enroll_url": "/course/3197760/enroll/",
+  "learn_url": "/course/uxdevelopment/learn/"
+}

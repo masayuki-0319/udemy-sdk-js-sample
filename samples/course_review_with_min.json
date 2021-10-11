@@ -1,0 +1,97 @@
+{
+  "count": 375,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "_class": "course_review",
+      "id": 97312304,
+      "content": "",
+      "rating": 5.0,
+      "created": "2021-10-07T05:01:09Z",
+      "modified": "2021-10-08T16:07:58Z",
+      "user_modified": "2021-10-07T05:01:11Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97308170,
+      "content": "",
+      "rating": 5.0,
+      "created": "2021-10-07T04:04:49Z",
+      "modified": "2021-10-08T16:07:58Z",
+      "user_modified": "2021-10-07T04:04:52Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97169450,
+      "content": "",
+      "rating": 5.0,
+      "created": "2021-10-05T11:16:32Z",
+      "modified": "2021-10-06T16:08:44Z",
+      "user_modified": "2021-10-05T11:16:32Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97081238,
+      "content": "",
+      "rating": 3.5,
+      "created": "2021-10-04T11:58:43Z",
+      "modified": "2021-10-05T16:10:02Z",
+      "user_modified": "2021-10-04T11:58:45Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97063850,
+      "content": "",
+      "rating": 3.5,
+      "created": "2021-10-04T08:23:02Z",
+      "modified": "2021-10-05T16:07:34Z",
+      "user_modified": "2021-10-04T08:23:18Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97055588,
+      "content": "",
+      "rating": 5.0,
+      "created": "2021-10-04T06:53:35Z",
+      "modified": "2021-10-05T16:07:36Z",
+      "user_modified": "2021-10-04T06:53:37Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 97010504,
+      "content": "",
+      "rating": 3.0,
+      "created": "2021-10-03T18:33:56Z",
+      "modified": "2021-10-04T16:03:43Z",
+      "user_modified": "2021-10-03T18:34:00Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 96866538,
+      "content": "",
+      "rating": 5.0,
+      "created": "2021-10-01T07:06:41Z",
+      "modified": "2021-10-02T16:09:14Z",
+      "user_modified": "2021-10-01T07:06:41Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 96838366,
+      "content": "",
+      "rating": 4.5,
+      "created": "2021-09-30T23:54:54Z",
+      "modified": "2021-10-01T16:05:30Z",
+      "user_modified": "2021-09-30T23:55:00Z"
+    },
+    {
+      "_class": "course_review",
+      "id": 96586044,
+      "content": "Fast paced",
+      "rating": 3.5,
+      "created": "2021-09-28T08:23:50Z",
+      "modified": "2021-09-29T16:08:23Z",
+      "user_modified": "2021-09-28T08:24:03Z"
+    }
+  ]
+}

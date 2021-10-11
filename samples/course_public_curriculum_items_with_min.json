@@ -1,0 +1,602 @@
+{
+  "count": 487,
+  "next": "https://www.udemy.com/api-2.0/courses/1565838/public-curriculum-items/?fields%5Bchapter%5D=%40min&fields%5Blecture%5D=%40min&fields%5Bquiz%5D=%40min&page=2&page_size=100",
+  "previous": null,
+  "results": [
+    {
+      "_class": "chapter",
+      "id": 2281624,
+      "created": "2018-02-22T12:02:39Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12638830,
+      "title": "What You'll Get in This Course",
+      "created": "2018-11-21T09:16:08Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12685347,
+      "title": "Syllabus Download",
+      "created": "2018-11-25T14:28:48Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399308,
+      "title": "Bookmark the Course Resources",
+      "created": "2018-11-02T23:17:06Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 13268600,
+      "title": "How to Get the Most Out of the Course",
+      "created": "2019-01-14T16:40:49Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12398824,
+      "title": "Download the 12 Rules to Learn to Code eBook",
+      "created": "2018-11-02T21:34:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12286980,
+      "title": "How Does the Internet Actually Work?",
+      "created": "2018-10-24T15:00:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12286990,
+      "title": "How Do Websites Actually Work?",
+      "created": "2018-10-24T15:01:25Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12371312,
+      "title": "What You'll Need to Get Started - Setup Your Local Web Development Environment",
+      "created": "2018-10-31T20:20:59Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 17104604,
+      "title": "How to Get Help When You're Stuck",
+      "created": "2019-11-27T13:36:37Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12398844,
+      "title": "Pathfinder",
+      "created": "2018-11-02T21:37:54Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881334,
+      "created": "2018-10-24T15:05:38Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287318,
+      "title": "Introduction to HTML",
+      "created": "2018-10-24T15:20:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287354,
+      "title": "The Anatomy of an HTML Tag",
+      "created": "2018-10-24T15:23:51Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287368,
+      "title": "What we're building - HTML Personal Site",
+      "created": "2018-10-24T15:24:34Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287410,
+      "title": "What is The HTML Boilerplate?",
+      "created": "2018-10-24T15:26:19Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287428,
+      "title": "How to Structure Text in HTML",
+      "created": "2018-10-24T15:27:11Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287442,
+      "title": "HTML Lists",
+      "created": "2018-10-24T15:28:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287446,
+      "title": "HTML Image Elements",
+      "created": "2018-10-24T15:30:08Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287450,
+      "title": "HTML Links and Anchor Tags",
+      "created": "2018-10-24T15:31:01Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 21523656,
+      "title": "How to Ace this Course",
+      "created": "2020-08-07T09:05:38Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881418,
+      "created": "2018-10-24T15:32:47Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287460,
+      "title": "HTML Tables",
+      "created": "2018-10-24T15:32:52Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287468,
+      "title": "Using HTML Tables for Layout",
+      "created": "2018-10-24T15:34:21Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287476,
+      "title": "HTML Tables Code Challenge",
+      "created": "2018-10-24T15:35:15Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12667172,
+      "title": "How to Type Emojis",
+      "created": "2018-11-23T16:07:52Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287482,
+      "title": "HTML Tables Solution Walkthrough",
+      "created": "2018-10-24T15:36:30Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287490,
+      "title": "HTML Forms",
+      "created": "2018-10-24T15:37:28Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287496,
+      "title": "Forms in Practice - Create a Contact Me Form",
+      "created": "2018-10-24T15:38:34Z"
+    },
+    {
+      "_class": "quiz",
+      "id": 4565626,
+      "title": "HTML Challenge",
+      "type": "coding-exercise",
+      "created": "2018-12-25T10:52:24Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12371296,
+      "title": "Publish Your Website!",
+      "created": "2018-10-31T20:19:29Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966364,
+      "title": "Tip from Angela - Habit Building with the Calendar Trick",
+      "created": "2020-02-07T11:01:25Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399306,
+      "title": "Get Monthly Tips and Tools to  Level Up as a Developer",
+      "created": "2018-11-02T23:16:31Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881434,
+      "created": "2018-10-24T15:40:24Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287510,
+      "title": "Introduction to CSS",
+      "created": "2018-10-24T15:39:53Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287520,
+      "title": "Inline CSS",
+      "created": "2018-10-24T15:41:31Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12644262,
+      "title": "A Quick Note About the Next Lesson",
+      "created": "2018-11-21T16:57:38Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287530,
+      "title": "Internal CSS",
+      "created": "2018-10-24T15:42:11Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287538,
+      "title": "External CSS",
+      "created": "2018-10-24T15:43:07Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287560,
+      "title": "How to Debug CSS Code",
+      "created": "2018-10-24T15:44:22Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287566,
+      "title": "The Anatomy of CSS Syntax",
+      "created": "2018-10-24T15:45:12Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287576,
+      "title": "CSS Selectors",
+      "created": "2018-10-24T15:46:11Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287586,
+      "title": "Classes vs. Ids",
+      "created": "2018-10-24T15:46:48Z"
+    },
+    {
+      "_class": "quiz",
+      "id": 4531826,
+      "title": "CSS Quiz",
+      "type": "simple-quiz",
+      "created": "2018-11-02T21:56:35Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966488,
+      "title": "Tip from Angela - Dealing with Distractions",
+      "created": "2020-02-07T11:11:01Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399710,
+      "title": "Join the Student Community",
+      "created": "2018-11-03T00:12:07Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881456,
+      "created": "2018-10-24T15:48:24Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287606,
+      "title": "What We'll Make - Stylised Personal Site",
+      "created": "2018-10-24T15:48:40Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287612,
+      "title": "What Are Favicons?",
+      "created": "2018-10-24T15:49:31Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287708,
+      "title": "HTML Divs",
+      "created": "2018-10-24T15:54:57Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287726,
+      "title": "The Box Model of Website Styling",
+      "created": "2018-10-24T15:57:04Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287744,
+      "title": "CSS Display Property",
+      "created": "2018-10-24T15:59:38Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399732,
+      "title": "Learn More About Web Design",
+      "created": "2018-11-03T00:14:59Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287756,
+      "title": "CSS Static and Relative Positioning",
+      "created": "2018-10-24T16:00:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287766,
+      "title": "Absolute positioning",
+      "created": "2018-10-24T16:02:05Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287780,
+      "title": "The Dark Art of Centering Elements with CSS",
+      "created": "2018-10-24T16:03:27Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287794,
+      "title": "Font Styling in Our Personal Site",
+      "created": "2018-10-24T16:04:28Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399742,
+      "title": "Learn More About Typography",
+      "created": "2018-11-03T00:17:23Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287798,
+      "title": "Adding Content to Our Website",
+      "created": "2018-10-24T16:04:45Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287634,
+      "title": "CSS Sizing",
+      "created": "2018-10-24T15:50:27Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399750,
+      "title": "Font Properties Challenge 1 - Change the Font Colour",
+      "created": "2018-11-03T00:20:09Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399794,
+      "title": "Font Properties Challenge 2 - Change the Font Weight",
+      "created": "2018-11-03T00:24:29Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399804,
+      "title": "Font Properties Challenge 3 - Change the Line Height",
+      "created": "2018-11-03T00:25:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287656,
+      "title": "CSS Font Property Challenge Solutions",
+      "created": "2018-10-24T15:51:35Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287672,
+      "title": "CSS Float and Clear",
+      "created": "2018-10-24T15:52:38Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399956,
+      "title": "CSS Challenge",
+      "created": "2018-11-03T00:57:07Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287704,
+      "title": "Stylised Personal Site Solution Walkthrough",
+      "created": "2018-10-24T15:54:00Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 13306918,
+      "title": "[Optional] Get More Practice HTML and CSS",
+      "created": "2019-01-17T15:28:29Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966538,
+      "title": "Tip from Angela - Nothing Easy is Worth Doing!",
+      "created": "2020-02-07T11:13:32Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881528,
+      "created": "2018-10-24T16:12:35Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287906,
+      "title": "What is Bootstrap?",
+      "created": "2018-10-24T16:12:52Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287996,
+      "title": "Installing Bootstrap",
+      "created": "2018-10-24T16:22:42Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288018,
+      "title": "Web Design 101 - Wireframing",
+      "created": "2018-10-24T16:24:07Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288048,
+      "title": "The Bootstrap Navigation Bar",
+      "created": "2018-10-24T16:25:05Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288088,
+      "title": "What We'll Make: TinDog",
+      "created": "2018-10-24T16:27:34Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288654,
+      "title": "Download the Starting Files",
+      "created": "2018-10-24T17:13:14Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288464,
+      "title": "Setting Up Our New Project",
+      "created": "2018-10-24T16:57:41Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288138,
+      "title": "Bootstrap Grid Layout System",
+      "created": "2018-10-24T16:31:38Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12749983,
+      "title": "Getting Montserrat Black and other Font Weights",
+      "created": "2018-11-30T11:35:55Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288154,
+      "title": "Adding Grid Layouts to Our Website",
+      "created": "2018-10-24T16:32:33Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12601934,
+      "title": "A Note About CSS Link Order",
+      "created": "2018-11-18T09:32:54Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288276,
+      "title": "Bootstrap Containers",
+      "created": "2018-10-24T16:43:35Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288284,
+      "title": "Bootstrap Buttons & Font Awesome",
+      "created": "2018-10-24T16:44:13Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288312,
+      "title": "Styling Our Website Challenges and Solutions",
+      "created": "2018-10-24T16:46:37Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288472,
+      "title": "Bootstrap Challenge 1",
+      "created": "2018-10-24T16:58:12Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288366,
+      "title": "Solution to Bootstrap Challenge 1",
+      "created": "2018-10-24T16:51:26Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966600,
+      "title": "Tip from Angela - How to Deal with Procrastination",
+      "created": "2020-02-07T11:16:28Z"
+    },
+    {
+      "_class": "chapter",
+      "id": 2884218,
+      "created": "2018-10-25T15:29:00Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299704,
+      "title": "The Bootstrap Carousel Part 1",
+      "created": "2018-10-25T15:24:40Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299710,
+      "title": "The Bootstrap Carousel Part 2",
+      "created": "2018-10-25T15:25:21Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299720,
+      "title": "Bootstrap Cards",
+      "created": "2018-10-25T15:26:12Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299730,
+      "title": "The CSS Z-Index and Stacking Order",
+      "created": "2018-10-25T15:27:08Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299744,
+      "title": "Media Query Breakpoints",
+      "created": "2018-10-25T15:28:06Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12400068,
+      "title": "Bootstrap Challenge 2",
+      "created": "2018-11-03T01:19:33Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299746,
+      "title": "Bootstrap Challenge 2 Solution",
+      "created": "2018-10-25T15:28:18Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299880,
+      "title": "How to become a Better Programmer - Code Refactoring",
+      "created": "2018-10-25T15:37:02Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299886,
+      "title": "Put it into Practice - Refactor our Website Part 1",
+      "created": "2018-10-25T15:37:51Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299892,
+      "title": "Advanced CSS - Combining Selectors",
+      "created": "2018-10-25T15:38:45Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299902,
+      "title": "Refactoring our Website Part 2",
+      "created": "2018-10-25T15:39:26Z"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299910,
+      "title": "Advanced CSS - Selector Priority",
+      "created": "2018-10-25T15:41:06Z"
+    }
+  ]
+}

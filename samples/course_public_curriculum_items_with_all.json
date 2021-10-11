@@ -1,0 +1,5390 @@
+{
+  "count": 487,
+  "next": "https://www.udemy.com/api-2.0/courses/1565838/public-curriculum-items/?fields%5Bchapter%5D=%40all&fields%5Blecture%5D=%40all&fields%5Bquiz%5D=%40all&page=2&page_size=100",
+  "previous": null,
+  "results": [
+    {
+      "_class": "chapter",
+      "id": 2281624,
+      "created": "2018-02-22T12:02:39Z",
+      "sort_order": 533,
+      "title": "Front-End Web Development",
+      "description": "web development course introduction.",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 1,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 43266,
+          "gt_instance": {
+            "id": 8322,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "Web Development",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-10-05T05:20:12Z",
+            "created": "2020-05-09T08:03:24Z",
+            "default_name": "Web Development",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12638830,
+      "title": "What You'll Get in This Course",
+      "created": "2018-11-21T09:16:08Z",
+      "description": "",
+      "title_cleaned": "what-youll-get-in-this-course",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": true,
+      "asset": {
+        "title": "Udemy Web Dev Promo.mp4",
+        "created": "2018-11-21T09:15:57Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 15359874
+      },
+      "sort_order": 532,
+      "can_be_previewed": true,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "03:09",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 1,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12638830",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12638830/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12685347,
+      "title": "Syllabus Download",
+      "created": "2018-11-25T14:28:48Z",
+      "description": "",
+      "title_cleaned": "syllabus-download",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": true,
+      "asset": {
+        "title": "",
+        "created": "2019-11-27T12:14:33Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 21109610
+      },
+      "sort_order": 531,
+      "can_be_previewed": true,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:11",
+      "has_caption": false,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 21107640,
+          "asset_type": "File",
+          "title": "Web Dev Syllabus.pdf",
+          "created": "2019-11-27T10:02:09Z"
+        }
+      ],
+      "object_index": 2,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12685347",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12685347/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399308,
+      "title": "Bookmark the Course Resources",
+      "created": "2018-11-02T23:17:06Z",
+      "description": "",
+      "title_cleaned": "bookmark-the-course-resources",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2019-12-03T09:46:17Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 21211464
+      },
+      "sort_order": 530,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:16",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 3,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399308",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399308/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 13268600,
+      "title": "How to Get the Most Out of the Course",
+      "created": "2019-01-14T16:40:49Z",
+      "description": "",
+      "title_cleaned": "how-to-get-the-most-out-of-the-course",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD00 How to use this course.mp4",
+        "created": "2019-01-14T16:57:16Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 16158922
+      },
+      "sort_order": 529,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:33",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 16174006,
+          "asset_type": "ExternalLink",
+          "title": "App Brewery Cornell Notes Template",
+          "created": "2019-01-15T16:48:20Z"
+        }
+      ],
+      "object_index": 4,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/13268600",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/13268600/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12398824,
+      "title": "Download the 12 Rules to Learn to Code eBook",
+      "created": "2018-11-02T21:34:42Z",
+      "description": "",
+      "title_cleaned": "download-the-12-rules-to-learn-to-code-ebook",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-30T10:20:08Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15501157
+      },
+      "sort_order": 528,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:41",
+      "has_caption": false,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 15454661,
+          "asset_type": "File",
+          "title": "12 Rules to Learn to Code eBook [Updated 26.11.18].pdf",
+          "created": "2018-11-27T16:22:57Z"
+        }
+      ],
+      "object_index": 5,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12398824",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12398824/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12286980,
+      "title": "How Does the Internet Actually Work?",
+      "created": "2018-10-24T15:00:42Z",
+      "description": "",
+      "title_cleaned": "how-does-the-internet-actually-work",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": true,
+      "asset": {
+        "title": "WD0.0_Update_2020_08_How_the_Internet_Works.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422094
+      },
+      "sort_order": 527,
+      "can_be_previewed": true,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "05:42",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 6,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12286980",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12286980/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12286990,
+      "title": "How Do Websites Actually Work?",
+      "created": "2018-10-24T15:01:25Z",
+      "description": "",
+      "title_cleaned": "how-do-websites-actually-work",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": true,
+      "asset": {
+        "title": "WD0.1_update_2020_08_How_Websites_Work.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422100
+      },
+      "sort_order": 526,
+      "can_be_previewed": true,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:20",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 7,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12286990",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12286990/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12371312,
+      "title": "What You'll Need to Get Started - Setup Your Local Web Development Environment",
+      "created": "2018-10-31T20:20:59Z",
+      "description": "",
+      "title_cleaned": "what-youll-need-to-get-started-setup-your-local-web-development-environment",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD0.2 Installation and Setup [Updated 27.11.19].mp4",
+        "created": "2019-11-27T15:06:39Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 21112762
+      },
+      "sort_order": 525,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:59",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 15314136,
+          "asset_type": "ExternalLink",
+          "title": "Web Development Course Resources",
+          "created": "2018-11-18T09:27:53Z"
+        }
+      ],
+      "object_index": 8,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12371312",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12371312/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 17104604,
+      "title": "How to Get Help When You're Stuck",
+      "created": "2019-11-27T13:36:37Z",
+      "description": "",
+      "title_cleaned": "how-to-get-help-when-youre-stuck",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "0.3 Web Getting Help.mp4",
+        "created": "2019-11-27T13:32:53Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 21111264
+      },
+      "sort_order": 524,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:39",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 9,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/17104604",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/17104604/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12398844,
+      "title": "Pathfinder",
+      "created": "2018-11-02T21:37:54Z",
+      "description": "",
+      "title_cleaned": "pathfinder",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-27T15:59:02Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15454193
+      },
+      "sort_order": 523,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "02:05",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 10,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12398844",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12398844/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881334,
+      "created": "2018-10-24T15:05:38Z",
+      "sort_order": 522,
+      "title": "Introduction to HTML",
+      "description": "Learn about HTML the fundamentals of web development",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 2,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 35546,
+          "gt_instance": {
+            "id": 6148,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "HTML, or hypertext markup language, is computer code used to create web pages and emails. Web developers, email marketers, web writers, and many others use HTML.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "HTML",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-09-29T21:11:58Z",
+            "created": "2016-12-02T22:38:28Z",
+            "default_name": "HTML",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12287318,
+      "title": "Introduction to HTML",
+      "created": "2018-10-24T15:20:42Z",
+      "description": "",
+      "title_cleaned": "introduction-to-html",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.0_update_2020_08_Intro_to_HTML.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422102
+      },
+      "sort_order": 521,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "10:51",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 11,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287318",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287318/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287354,
+      "title": "The Anatomy of an HTML Tag",
+      "created": "2018-10-24T15:23:51Z",
+      "description": "",
+      "title_cleaned": "the-anatomy-of-an-html-tag",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.1_updated_2020_08_The_Anatomy_of_an_HTML_Tag.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422092
+      },
+      "sort_order": 520,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "10:55",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 12,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287354",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287354/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287368,
+      "title": "What we're building - HTML Personal Site",
+      "created": "2018-10-24T15:24:34Z",
+      "description": "",
+      "title_cleaned": "what-were-building-html-personal-site",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.2_updated_2020_08_What_we_re_building_-_HTML_Personal_Site.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422098
+      },
+      "sort_order": 519,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "02:52",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 13,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287368",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287368/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287410,
+      "title": "What is The HTML Boilerplate?",
+      "created": "2018-10-24T15:26:19Z",
+      "description": "",
+      "title_cleaned": "what-is-the-html-boilerplate",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.3_updated_2020_08_HTML_Boilerplate.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422090
+      },
+      "sort_order": 518,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "17:01",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 14,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287410",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287410/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287428,
+      "title": "How to Structure Text in HTML",
+      "created": "2018-10-24T15:27:11Z",
+      "description": "",
+      "title_cleaned": "how-to-structure-text-in-html",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.4_updated_2020_08_Structuring_Text_in_HTML.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422120
+      },
+      "sort_order": 517,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:00",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 15,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287428",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287428/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287442,
+      "title": "HTML Lists",
+      "created": "2018-10-24T15:28:42Z",
+      "description": "",
+      "title_cleaned": "html-lists",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.5_updated_2020_08_Lists.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422088
+      },
+      "sort_order": 516,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "05:24",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 16,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287442",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287442/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287446,
+      "title": "HTML Image Elements",
+      "created": "2018-10-24T15:30:08Z",
+      "description": "",
+      "title_cleaned": "html-image-elements",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.6_updated_2020_08_Image_Element.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422110
+      },
+      "sort_order": 515,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "07:32",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 17,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287446",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287446/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287450,
+      "title": "HTML Links and Anchor Tags",
+      "created": "2018-10-24T15:31:01Z",
+      "description": "",
+      "title_cleaned": "html-links-and-anchor-tags",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD1.7_updated_2020_08_Anchor_Tag.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422122
+      },
+      "sort_order": 514,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:55",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29821224,
+          "asset_type": "ExternalLink",
+          "title": "Course Fixes: Report an Issue",
+          "created": "2020-12-08T12:45:56Z"
+        }
+      ],
+      "object_index": 18,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287450",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287450/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 21523656,
+      "title": "How to Ace this Course",
+      "created": "2020-08-07T09:05:38Z",
+      "description": "",
+      "title_cleaned": "how-to-ace-this-course",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "Goal Setting.mov",
+        "created": "2020-02-07T14:50:10Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 22241675
+      },
+      "sort_order": 513,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "01:24",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 26888888,
+          "asset_type": "File",
+          "title": "Goal Setting Questions.pdf",
+          "created": "2020-08-07T09:05:57Z"
+        }
+      ],
+      "object_index": 19,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/21523656",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/21523656/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881418,
+      "created": "2018-10-24T15:32:47Z",
+      "sort_order": 511,
+      "title": "Intermediate HTML",
+      "description": "intermediate HTML concepts",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 3,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 35370,
+          "gt_instance": {
+            "id": 6148,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "HTML, or hypertext markup language, is computer code used to create web pages and emails. Web developers, email marketers, web writers, and many others use HTML.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "HTML",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-09-29T21:11:58Z",
+            "created": "2016-12-02T22:38:28Z",
+            "default_name": "HTML",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12287460,
+      "title": "HTML Tables",
+      "created": "2018-10-24T15:32:52Z",
+      "description": "",
+      "title_cleaned": "html-tables",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.0_updated_2020_08_Tables.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422104
+      },
+      "sort_order": 510,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:57",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 20,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287460",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287460/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287468,
+      "title": "Using HTML Tables for Layout",
+      "created": "2018-10-24T15:34:21Z",
+      "description": "",
+      "title_cleaned": "using-html-tables-for-layout",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.1_Updated_2020_08_Using_Tables_for_Layout.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422112
+      },
+      "sort_order": 509,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "02:17",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 21,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287468",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287468/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287476,
+      "title": "HTML Tables Code Challenge",
+      "created": "2018-10-24T15:35:15Z",
+      "description": "",
+      "title_cleaned": "html-tables-code-challenge",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.2_Updated_2020_08_Table_Challenge.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422116
+      },
+      "sort_order": 508,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "01:44",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 22,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287476",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287476/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12667172,
+      "title": "How to Type Emojis",
+      "created": "2018-11-23T16:07:52Z",
+      "description": "",
+      "title_cleaned": "how-to-type-emojis",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-03-04T11:53:06Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 22661422
+      },
+      "sort_order": 507,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "01:02",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 23,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12667172",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12667172/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287482,
+      "title": "HTML Tables Solution Walkthrough",
+      "created": "2018-10-24T15:36:30Z",
+      "description": "",
+      "title_cleaned": "html-tables-solution-walkthrough",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.3_Updated_2020_08_Table_Solution.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422118
+      },
+      "sort_order": 506,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:42",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 24,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287482",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287482/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287490,
+      "title": "HTML Forms",
+      "created": "2018-10-24T15:37:28Z",
+      "description": "",
+      "title_cleaned": "html-forms",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.4_Updated_2020_08_Forms.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422114
+      },
+      "sort_order": 505,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:09",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 25,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287490",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287490/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287496,
+      "title": "Forms in Practice - Create a Contact Me Form",
+      "created": "2018-10-24T15:38:34Z",
+      "description": "",
+      "title_cleaned": "forms-in-practice-create-a-contact-me-form",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.5_updated_2020_08_Create_a_Contact_Me_Form.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422106
+      },
+      "sort_order": 504,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "07:27",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 26,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287496",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287496/popup/"
+    },
+    {
+      "_class": "quiz",
+      "id": 4565626,
+      "title": "HTML Challenge",
+      "type": "coding-exercise",
+      "created": "2018-12-25T10:52:24Z",
+      "description": "",
+      "title_cleaned": "",
+      "is_published": true,
+      "sort_order": 503,
+      "object_index": 1,
+      "is_draft": false,
+      "version": 1,
+      "duration": 0,
+      "pass_percent": 70,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "1 question",
+      "num_assessments": 1,
+      "url": "/course/the-complete-web-development-bootcamp/learn/quiz/4565626",
+      "changelog": null,
+      "requires_draft": false,
+      "content_details": {
+        "length": 1,
+        "unit": "questions"
+      },
+      "is_randomized": false
+    },
+    {
+      "_class": "lecture",
+      "id": 12371296,
+      "title": "Publish Your Website!",
+      "created": "2018-10-31T20:19:29Z",
+      "description": "",
+      "title_cleaned": "publish-your-website",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD2.6_updated_2020_08_Publish_on_Github.mp4",
+        "created": "2020-08-28T10:43:04Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 27422108
+      },
+      "sort_order": 502,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:44",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29821232,
+          "asset_type": "ExternalLink",
+          "title": "Course Fixes: Report an Issue",
+          "created": "2020-12-08T12:46:13Z"
+        }
+      ],
+      "object_index": 27,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12371296",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12371296/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966364,
+      "title": "Tip from Angela - Habit Building with the Calendar Trick",
+      "created": "2020-02-07T11:01:25Z",
+      "description": "",
+      "title_cleaned": "test",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "Habit Building Calendar Trick.mov",
+        "created": "2020-02-06T17:51:51Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 22227076
+      },
+      "sort_order": 501,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "02:52",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 28,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/17966364",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/17966364/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399306,
+      "title": "Get Monthly Tips and Tools to  Level Up as a Developer",
+      "created": "2018-11-02T23:16:31Z",
+      "description": "",
+      "title_cleaned": "get-monthly-tips-and-tools-to-level-up-as-a-developer",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-23T13:00:29Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15393322
+      },
+      "sort_order": 500,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:35",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 29,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399306",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399306/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881434,
+      "created": "2018-10-24T15:40:24Z",
+      "sort_order": 498,
+      "title": "Introduction to CSS",
+      "description": "introduction to styling websites with CSS",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 4,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 26952,
+          "gt_instance": {
+            "id": 5306,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "Consider the devices that you use to access the internet on a daily basis. You’ll notice that there isn’t a standard screen size. Without CSS, rendering a website’s text, layout, and design for these discrepancies in screens would be impossible. CSS is the backbone of all website styling work, and is rightfully considered a cornerstone of internet technology.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "CSS",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-09-29T21:13:45Z",
+            "created": "2020-05-09T08:03:24Z",
+            "default_name": "CSS",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12287510,
+      "title": "Introduction to CSS",
+      "created": "2018-10-24T15:39:53Z",
+      "description": "",
+      "title_cleaned": "introduction-to-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.0 Intro to CSS.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831322
+      },
+      "sort_order": 497,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "03:04",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 30,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287510",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287510/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287520,
+      "title": "Inline CSS",
+      "created": "2018-10-24T15:41:31Z",
+      "description": "",
+      "title_cleaned": "inline-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.1 Inline CSS (updated).mp4",
+        "created": "2020-01-22T10:33:24Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 21976220
+      },
+      "sort_order": 496,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:56",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 31,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287520",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287520/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12644262,
+      "title": "A Quick Note About the Next Lesson",
+      "created": "2018-11-21T16:57:38Z",
+      "description": "",
+      "title_cleaned": "a-quick-note-about-the-next-lesson",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-03-04T12:11:49Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 22661668
+      },
+      "sort_order": 495,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:12",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 32,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12644262",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12644262/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287530,
+      "title": "Internal CSS",
+      "created": "2018-10-24T15:42:11Z",
+      "description": "",
+      "title_cleaned": "internal-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.2 Internal CSS.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831314
+      },
+      "sort_order": 494,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "20:22",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 33,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287530",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287530/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287538,
+      "title": "External CSS",
+      "created": "2018-10-24T15:43:07Z",
+      "description": "",
+      "title_cleaned": "external-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.3 External CSS.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831318
+      },
+      "sort_order": 493,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "08:29",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 34,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287538",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287538/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287560,
+      "title": "How to Debug CSS Code",
+      "created": "2018-10-24T15:44:22Z",
+      "description": "",
+      "title_cleaned": "how-to-debug-css-code",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.4 CSS Debugging.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831338
+      },
+      "sort_order": 492,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "13:37",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 23609452,
+          "asset_type": "ExternalLink",
+          "title": "Files, Course Resources and Links",
+          "created": "2020-04-13T09:02:45Z"
+        }
+      ],
+      "object_index": 35,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287560",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287560/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287566,
+      "title": "The Anatomy of CSS Syntax",
+      "created": "2018-10-24T15:45:12Z",
+      "description": "",
+      "title_cleaned": "the-anatomy-of-css-syntax",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.5 CSS Syntax.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831302
+      },
+      "sort_order": 491,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "13:08",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 36,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287566",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287566/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287576,
+      "title": "CSS Selectors",
+      "created": "2018-10-24T15:46:11Z",
+      "description": "",
+      "title_cleaned": "css-selectors",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.6 CSS Selectors (Class).mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831328
+      },
+      "sort_order": 490,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:23",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 37,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287576",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287576/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287586,
+      "title": "Classes vs. Ids",
+      "created": "2018-10-24T15:46:48Z",
+      "description": "",
+      "title_cleaned": "classes-vs-ids",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.7 Classes vs. ID Selectors.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831350
+      },
+      "sort_order": 489,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:44",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 38,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287586",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287586/popup/"
+    },
+    {
+      "_class": "quiz",
+      "id": 4531826,
+      "title": "CSS Quiz",
+      "type": "simple-quiz",
+      "created": "2018-11-02T21:56:35Z",
+      "description": "<p>A quick quiz to test yourself on your grasp of CSS and reassure yourself that you've got this!</p>",
+      "title_cleaned": "",
+      "is_published": true,
+      "sort_order": 488,
+      "object_index": 1,
+      "is_draft": false,
+      "version": 1,
+      "duration": 0,
+      "pass_percent": 70,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "6 questions",
+      "num_assessments": 6,
+      "url": "/course/the-complete-web-development-bootcamp/learn/quiz/4531826",
+      "changelog": null,
+      "requires_draft": false,
+      "content_details": {
+        "length": 6,
+        "unit": "questions"
+      },
+      "is_randomized": false
+    },
+    {
+      "_class": "lecture",
+      "id": 17966488,
+      "title": "Tip from Angela - Dealing with Distractions",
+      "created": "2020-02-07T11:11:01Z",
+      "description": "",
+      "title_cleaned": "test",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "Distractions.mov",
+        "created": "2020-02-06T17:51:51Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 22227100
+      },
+      "sort_order": 487,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "02:28",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 39,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/17966488",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/17966488/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399710,
+      "title": "Join the Student Community",
+      "created": "2018-11-03T00:12:07Z",
+      "description": "",
+      "title_cleaned": "join-the-student-community",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-08-28T15:40:04Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 27428676
+      },
+      "sort_order": 486,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:19",
+      "has_caption": false,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29821242,
+          "asset_type": "ExternalLink",
+          "title": "Course Fixes: Report an Issue",
+          "created": "2020-12-08T12:46:48Z"
+        }
+      ],
+      "object_index": 40,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399710",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399710/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881456,
+      "created": "2018-10-24T15:48:24Z",
+      "sort_order": 484,
+      "title": "Intermediate CSS",
+      "description": "Learn about CSS the fundamentals of web development",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 5,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 36356,
+          "gt_instance": {
+            "id": 5306,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "Consider the devices that you use to access the internet on a daily basis. You’ll notice that there isn’t a standard screen size. Without CSS, rendering a website’s text, layout, and design for these discrepancies in screens would be impossible. CSS is the backbone of all website styling work, and is rightfully considered a cornerstone of internet technology.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "CSS",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-09-29T21:13:45Z",
+            "created": "2020-05-09T08:03:24Z",
+            "default_name": "CSS",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12287606,
+      "title": "What We'll Make - Stylised Personal Site",
+      "created": "2018-10-24T15:48:40Z",
+      "description": "",
+      "title_cleaned": "what-well-make-stylised-personal-site",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.0 Starting a New Project for Advanced CSS.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831312
+      },
+      "sort_order": 483,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "04:57",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 41,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287606",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287606/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287612,
+      "title": "What Are Favicons?",
+      "created": "2018-10-24T15:49:31Z",
+      "description": "",
+      "title_cleaned": "what-are-favicons",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.1 Favicon.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831334
+      },
+      "sort_order": 482,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "03:47",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 42,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287612",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287612/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287708,
+      "title": "HTML Divs",
+      "created": "2018-10-24T15:54:57Z",
+      "description": "",
+      "title_cleaned": "html-divs",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.2 HTML Divs.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831300
+      },
+      "sort_order": 481,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "13:33",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 43,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287708",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287708/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287726,
+      "title": "The Box Model of Website Styling",
+      "created": "2018-10-24T15:57:04Z",
+      "description": "",
+      "title_cleaned": "the-box-model-of-website-styling",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD3.4 The Box Model.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831308
+      },
+      "sort_order": 480,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "19:25",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 44,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287726",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287726/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287744,
+      "title": "CSS Display Property",
+      "created": "2018-10-24T15:59:38Z",
+      "description": "",
+      "title_cleaned": "css-display-property",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.4 CSS Display.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831296
+      },
+      "sort_order": 479,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "15:11",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 23609456,
+          "asset_type": "ExternalLink",
+          "title": "Files, Course Resources and Links",
+          "created": "2020-04-13T09:03:03Z"
+        }
+      ],
+      "object_index": 45,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287744",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287744/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399732,
+      "title": "Learn More About Web Design",
+      "created": "2018-11-03T00:14:59Z",
+      "description": "",
+      "title_cleaned": "learn-more-about-web-design",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-05-11T08:30:50Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 24512356
+      },
+      "sort_order": 478,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:10",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 46,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399732",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399732/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287756,
+      "title": "CSS Static and Relative Positioning",
+      "created": "2018-10-24T16:00:42Z",
+      "description": "",
+      "title_cleaned": "css-static-and-relative-positioning",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.5 Static and Relative Positioning.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831306
+      },
+      "sort_order": 477,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "14:36",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 47,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287756",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287756/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287766,
+      "title": "Absolute positioning",
+      "created": "2018-10-24T16:02:05Z",
+      "description": "",
+      "title_cleaned": "absolute-positioning",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.6 Absolute Positioning.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831290
+      },
+      "sort_order": 476,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "12:12",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 48,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287766",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287766/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287780,
+      "title": "The Dark Art of Centering Elements with CSS",
+      "created": "2018-10-24T16:03:27Z",
+      "description": "",
+      "title_cleaned": "the-dark-art-of-centering-elements-with-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.7 Centering and Further Positioning.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831358
+      },
+      "sort_order": 475,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:03",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 49,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287780",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287780/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287794,
+      "title": "Font Styling in Our Personal Site",
+      "created": "2018-10-24T16:04:28Z",
+      "description": "",
+      "title_cleaned": "font-styling-in-our-personal-site",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.8 Font Styling.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831286
+      },
+      "sort_order": 474,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "13:59",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 50,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287794",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287794/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399742,
+      "title": "Learn More About Typography",
+      "created": "2018-11-03T00:17:23Z",
+      "description": "",
+      "title_cleaned": "learn-more-about-typography",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-10T08:56:58Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15182442
+      },
+      "sort_order": 473,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:10",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 51,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399742",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399742/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287798,
+      "title": "Adding Content to Our Website",
+      "created": "2018-10-24T16:04:45Z",
+      "description": "",
+      "title_cleaned": "test",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.9 Adding Content [updated 12.2.18].mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831360
+      },
+      "sort_order": 472,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "06:52",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 15302512,
+          "asset_type": "File",
+          "title": "StubCode.html",
+          "created": "2018-11-17T11:29:30Z"
+        }
+      ],
+      "object_index": 52,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287798",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287798/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287634,
+      "title": "CSS Sizing",
+      "created": "2018-10-24T15:50:27Z",
+      "description": "",
+      "title_cleaned": "css-sizing",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.10 [Updated 16.1.21] Css Sizing.mp4",
+        "created": "2021-01-18T15:41:27Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 30764264
+      },
+      "sort_order": 471,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "15:39",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 53,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287634",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287634/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399750,
+      "title": "Font Properties Challenge 1 - Change the Font Colour",
+      "created": "2018-11-03T00:20:09Z",
+      "description": "",
+      "title_cleaned": "font-properties-challenge-1-change-the-font-colour",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-03T00:24:03Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15067278
+      },
+      "sort_order": 470,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:09",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 54,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399750",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399750/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399794,
+      "title": "Font Properties Challenge 2 - Change the Font Weight",
+      "created": "2018-11-03T00:24:29Z",
+      "description": "",
+      "title_cleaned": "font-properties-challenge-2-change-the-font-weight",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-03T00:28:05Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15067296
+      },
+      "sort_order": 469,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:02",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 55,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399794",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399794/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399804,
+      "title": "Font Properties Challenge 3 - Change the Line Height",
+      "created": "2018-11-03T00:25:42Z",
+      "description": "",
+      "title_cleaned": "font-properties-challenge-3-change-the-line-height",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-03T00:27:32Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15067294
+      },
+      "sort_order": 468,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:02",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 56,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399804",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399804/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287656,
+      "title": "CSS Font Property Challenge Solutions",
+      "created": "2018-10-24T15:51:35Z",
+      "description": "",
+      "title_cleaned": "css-font-property-challenge",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.11 Font properties challenge.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831356
+      },
+      "sort_order": 467,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "03:57",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 57,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287656",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287656/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287672,
+      "title": "CSS Float and Clear",
+      "created": "2018-10-24T15:52:38Z",
+      "description": "",
+      "title_cleaned": "css-float-and-clear",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.12 Float & Clear.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831274
+      },
+      "sort_order": 466,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "15:13",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 58,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287672",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287672/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12399956,
+      "title": "CSS Challenge",
+      "created": "2018-11-03T00:57:07Z",
+      "description": "",
+      "title_cleaned": "css-challenge",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-03-03T16:38:59Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 22648032
+      },
+      "sort_order": 465,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:23",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 59,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12399956",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12399956/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287704,
+      "title": "Stylised Personal Site Solution Walkthrough",
+      "created": "2018-10-24T15:54:00Z",
+      "description": "",
+      "title_cleaned": "stylised-personal-site-solution-walkthrough",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD4.13 personal Site Solution final.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831278
+      },
+      "sort_order": 464,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "21:22",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 60,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287704",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287704/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 13306918,
+      "title": "[Optional] Get More Practice HTML and CSS",
+      "created": "2019-01-17T15:28:29Z",
+      "description": "",
+      "title_cleaned": "practice-html-and-css",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2019-01-17T15:32:50Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 16205032
+      },
+      "sort_order": 463,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:16",
+      "has_caption": false,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29821244,
+          "asset_type": "ExternalLink",
+          "title": "Course Fixes: Report an Issue",
+          "created": "2020-12-08T12:47:08Z"
+        }
+      ],
+      "object_index": 61,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/13306918",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/13306918/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966538,
+      "title": "Tip from Angela - Nothing Easy is Worth Doing!",
+      "created": "2020-02-07T11:13:32Z",
+      "description": "",
+      "title_cleaned": "test",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "No instant success. Gym (Bad Sound).mov",
+        "created": "2020-02-06T17:51:51Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 22227082
+      },
+      "sort_order": 462,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "03:35",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 62,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/17966538",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/17966538/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2881528,
+      "created": "2018-10-24T16:12:35Z",
+      "sort_order": 460,
+      "title": "Introduction to Bootstrap 4",
+      "description": "Learn about bootstrap the fundamentals of web development",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 6,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 36188,
+          "gt_instance": {
+            "id": 4820,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "Bootstrap is a free frontend web development framework for creating responsive websites. Bootstrap promotes a mobile-first approach to web design, offering a suite of templates and components that automatically render for use on any device.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "Bootstrap",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-04-09T18:41:05Z",
+            "created": "2016-12-02T22:38:20Z",
+            "default_name": "Bootstrap",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12287906,
+      "title": "What is Bootstrap?",
+      "created": "2018-10-24T16:12:52Z",
+      "description": "",
+      "title_cleaned": "what-is-bootstrap",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.0 Intro to Bootstrap.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831280
+      },
+      "sort_order": 459,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "14:36",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 63,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287906",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287906/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12287996,
+      "title": "Installing Bootstrap",
+      "created": "2018-10-24T16:22:42Z",
+      "description": "",
+      "title_cleaned": "installing-bootstrap",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "Wd5.1 Installing Bootstrap.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831268
+      },
+      "sort_order": 458,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "07:55",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 64,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12287996",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12287996/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288018,
+      "title": "Web Design 101 - Wireframing",
+      "created": "2018-10-24T16:24:07Z",
+      "description": "",
+      "title_cleaned": "web-design-101-wireframing",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.2 Wireframing.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831288
+      },
+      "sort_order": 457,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:38",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 65,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288018",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288018/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288048,
+      "title": "The Bootstrap Navigation Bar",
+      "created": "2018-10-24T16:25:05Z",
+      "description": "",
+      "title_cleaned": "the-bootstrap-navigation-bar",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.3 Nav Bar.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831276
+      },
+      "sort_order": 456,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "20:40",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 66,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288048",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288048/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288088,
+      "title": "What We'll Make: TinDog",
+      "created": "2018-10-24T16:27:34Z",
+      "description": "",
+      "title_cleaned": "what-well-make-tindog",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": true,
+      "asset": {
+        "title": "WD5.4 What we'll make TinDog.mp4",
+        "created": "2018-10-19T15:32:27Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831122
+      },
+      "sort_order": 455,
+      "can_be_previewed": true,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:56",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 67,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288088",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288088/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288654,
+      "title": "Download the Starting Files",
+      "created": "2018-10-24T17:13:14Z",
+      "description": "",
+      "title_cleaned": "download-the-starting-files",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-10-24T17:29:54Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 14925330
+      },
+      "sort_order": 454,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:32",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 68,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288654",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288654/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288464,
+      "title": "Setting Up Our New Project",
+      "created": "2018-10-24T16:57:41Z",
+      "description": "",
+      "title_cleaned": "setting-up-our-new-project",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.4 Create a New Project.mp4",
+        "created": "2018-10-24T16:56:56Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14924730
+      },
+      "sort_order": 453,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "07:41",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 22648404,
+          "asset_type": "ExternalLink",
+          "title": "Codeply Navbar",
+          "created": "2020-03-03T17:00:15Z"
+        }
+      ],
+      "object_index": 69,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288464",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288464/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288138,
+      "title": "Bootstrap Grid Layout System",
+      "created": "2018-10-24T16:31:38Z",
+      "description": "",
+      "title_cleaned": "bootstrap-grid-layout-system",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.5 Bootstrap Grid Layout.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831266
+      },
+      "sort_order": 452,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "20:17",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 70,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288138",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288138/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12749983,
+      "title": "Getting Montserrat Black and other Font Weights",
+      "created": "2018-11-30T11:35:55Z",
+      "description": "",
+      "title_cleaned": "getting-montserrat-black-and-other-font-weights",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2020-11-19T15:52:19Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 29377979
+      },
+      "sort_order": 451,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:37",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 71,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12749983",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12749983/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288154,
+      "title": "Adding Grid Layouts to Our Website",
+      "created": "2018-10-24T16:32:33Z",
+      "description": "",
+      "title_cleaned": "adding-grid-layouts-to-our-website",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.5.1 Adding Grid Layout to Our Project.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831336
+      },
+      "sort_order": 450,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:39",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 72,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288154",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288154/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12601934,
+      "title": "A Note About CSS Link Order",
+      "created": "2018-11-18T09:32:54Z",
+      "description": "",
+      "title_cleaned": "a-note-about-css-link-order",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2019-01-11T12:29:37Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 16113396
+      },
+      "sort_order": 449,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:52",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 73,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12601934",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12601934/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288276,
+      "title": "Bootstrap Containers",
+      "created": "2018-10-24T16:43:35Z",
+      "description": "",
+      "title_cleaned": "bootstrap-containers",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.6 Bootstrap Containers.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831260
+      },
+      "sort_order": 448,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "05:54",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 74,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288276",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288276/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288284,
+      "title": "Bootstrap Buttons & Font Awesome",
+      "created": "2018-10-24T16:44:13Z",
+      "description": "",
+      "title_cleaned": "bootstrap-buttons-font-awesome",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.7 Buttons and Font Awesome.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831270
+      },
+      "sort_order": 447,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:30",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 75,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288284",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288284/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288312,
+      "title": "Styling Our Website Challenges and Solutions",
+      "created": "2018-10-24T16:46:37Z",
+      "description": "",
+      "title_cleaned": "styling-challenge-solution-walkthrough",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.8 Styling Solution.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831258
+      },
+      "sort_order": 446,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "20:20",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 76,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288312",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288312/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288472,
+      "title": "Bootstrap Challenge 1",
+      "created": "2018-10-24T16:58:12Z",
+      "description": "",
+      "title_cleaned": "bootstrap-challenge-1",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-17T11:38:49Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15302660
+      },
+      "sort_order": 445,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:35",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 77,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288472",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288472/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12288366,
+      "title": "Solution to Bootstrap Challenge 1",
+      "created": "2018-10-24T16:51:26Z",
+      "description": "",
+      "title_cleaned": "solution-to-bootstrap-challenge",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.9 [Solution] to Bootstrap Challenge.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831284
+      },
+      "sort_order": 444,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "17:01",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29821252,
+          "asset_type": "ExternalLink",
+          "title": "Course Fixes: Report an Issue",
+          "created": "2020-12-08T12:47:21Z"
+        }
+      ],
+      "object_index": 78,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12288366",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12288366/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 17966600,
+      "title": "Tip from Angela - How to Deal with Procrastination",
+      "created": "2020-02-07T11:16:28Z",
+      "description": "",
+      "title_cleaned": "test",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "Procrastination Pomodoro.mov",
+        "created": "2020-02-06T17:51:51Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 22227092
+      },
+      "sort_order": 443,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "04:08",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 79,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/17966600",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/17966600/popup/"
+    },
+    {
+      "_class": "chapter",
+      "id": 2884218,
+      "created": "2018-10-25T15:29:00Z",
+      "sort_order": 441,
+      "title": "Intermediate Bootstrap",
+      "description": "Learn about bootstrap the fundamentals of web development",
+      "is_published": true,
+      "title_cleaned": "",
+      "object_index": 7,
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "gt_assignments": [
+        {
+          "_class": "gt_assignment",
+          "id": 154942,
+          "gt_instance": {
+            "id": 4820,
+            "type_name": "topic",
+            "schema": {
+              "id": 4,
+              "description": "Thuongvu is using this to prototype",
+              "dependent_on_schema": null,
+              "primary_sort": {
+                "_class": "gt_instance_prop",
+                "name": "Display Name",
+                "type": "text_field",
+                "name_cleaned": "display_name",
+                "id": 16
+              },
+              "type": "instance",
+              "name": "Course_Label",
+              "available_props": [
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 16,
+                  "prop": {
+                    "options": null,
+                    "id": 16,
+                    "description": "Display name of the instance",
+                    "name_cleaned": "display_name",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Display Name"
+                  },
+                  "is_required": true,
+                  "is_default_name": true,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 54,
+                  "prop": {
+                    "options": null,
+                    "id": 50,
+                    "description": "User-facing description",
+                    "name_cleaned": "description",
+                    "_class": "gt_instance_prop",
+                    "type": "text_field",
+                    "name": "Description"
+                  },
+                  "is_required": false,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                },
+                {
+                  "_class": "gt_schema_has_instance_prop",
+                  "id": 56,
+                  "prop": {
+                    "options": null,
+                    "id": 52,
+                    "description": "Visible to users on the website",
+                    "name_cleaned": "visible",
+                    "_class": "gt_instance_prop",
+                    "type": "bool",
+                    "name": "Visible"
+                  },
+                  "is_required": true,
+                  "is_default_name": false,
+                  "aggregation_type": "terms"
+                }
+              ],
+              "secondary_sort": null,
+              "assignable_entities": [
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 4,
+                  "entity": {
+                    "model": "user",
+                    "_class": "django_content_type",
+                    "id": 36
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 6,
+                  "entity": {
+                    "model": "course",
+                    "_class": "django_content_type",
+                    "id": 40
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 8,
+                  "entity": {
+                    "model": "lecture",
+                    "_class": "django_content_type",
+                    "id": 352
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 36,
+                  "entity": {
+                    "model": "chapter",
+                    "_class": "django_content_type",
+                    "id": 348
+                  },
+                  "entity_schema": null,
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                },
+                {
+                  "_class": "gt_assignable_to_entity",
+                  "id": 51,
+                  "entity": {
+                    "model": "gtinstance",
+                    "_class": "django_content_type",
+                    "id": 2108
+                  },
+                  "entity_schema": {
+                    "id": 32,
+                    "name": "Occupation",
+                    "_class": "gt_schema",
+                    "name_cleaned": "occupation",
+                    "dependent_on_schema": null
+                  },
+                  "assignment_types": [
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 3,
+                      "name": "Representative Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 5,
+                      "name": "Associated Topic"
+                    },
+                    {
+                      "_class": "gt_assignment_type",
+                      "id": 2,
+                      "name": "default"
+                    }
+                  ],
+                  "is_approval_needed": true
+                }
+              ],
+              "_class": "gt_schema",
+              "name_cleaned": "course_label"
+            },
+            "filled_instance_props": [
+              {
+                "prop_type": "text_field",
+                "prop_name": "description",
+                "prop_value": "Bootstrap is a free frontend web development framework for creating responsive websites. Bootstrap promotes a mobile-first approach to web design, offering a suite of templates and components that automatically render for use on any device.",
+                "prop_id": 50
+              },
+              {
+                "prop_type": "bool",
+                "prop_name": "visible",
+                "prop_value": true,
+                "prop_id": 52
+              },
+              {
+                "prop_type": "text_field",
+                "prop_name": "display_name",
+                "prop_value": "Bootstrap",
+                "prop_id": 16
+              }
+            ],
+            "modified": "2021-04-09T18:41:05Z",
+            "created": "2016-12-02T22:38:20Z",
+            "default_name": "Bootstrap",
+            "_class": "course_label"
+          }
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 12299704,
+      "title": "The Bootstrap Carousel Part 1",
+      "created": "2018-10-25T15:24:40Z",
+      "description": "",
+      "title_cleaned": "the-bootstrap-carousel-part-1",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.10.0 Bootrap Carousel pre-styling.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831262
+      },
+      "sort_order": 440,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "09:39",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 80,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299704",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299704/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299710,
+      "title": "The Bootstrap Carousel Part 2",
+      "created": "2018-10-25T15:25:21Z",
+      "description": "",
+      "title_cleaned": "the-bootstrap-carousel-part-2",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.10.1 Bootstrap Carousel part 2.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831242
+      },
+      "sort_order": 439,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "17:20",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 81,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299710",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299710/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299720,
+      "title": "Bootstrap Cards",
+      "created": "2018-10-25T15:26:12Z",
+      "description": "",
+      "title_cleaned": "bootstrap-cards",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.11 Bootstrap Cards.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831304
+      },
+      "sort_order": 438,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "16:31",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 82,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299720",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299720/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299730,
+      "title": "The CSS Z-Index and Stacking Order",
+      "created": "2018-10-25T15:27:08Z",
+      "description": "",
+      "title_cleaned": "css-z-index-and-stacking-order",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.12 Z-Index & Stacking Order.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831244
+      },
+      "sort_order": 437,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "21:28",
+      "has_caption": true,
+      "num_supplementary_assets": 1,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29353918,
+          "asset_type": "File",
+          "title": "Stacking Order Flowchart v2.1.pdf",
+          "created": "2020-11-18T17:15:23Z"
+        }
+      ],
+      "object_index": 83,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299730",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299730/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299744,
+      "title": "Media Query Breakpoints",
+      "created": "2018-10-25T15:28:06Z",
+      "description": "",
+      "title_cleaned": "media-query-breakpoints",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.13 Media Queries Breakpoints (Advanced CSS).mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831248
+      },
+      "sort_order": 436,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "22:03",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 84,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299744",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299744/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12400068,
+      "title": "Bootstrap Challenge 2",
+      "created": "2018-11-03T01:19:33Z",
+      "description": "",
+      "title_cleaned": "bootstrap-challenge-2",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": true,
+      "is_free": false,
+      "asset": {
+        "title": "",
+        "created": "2018-11-03T01:22:54Z",
+        "asset_type": "Article",
+        "_class": "asset",
+        "id": 15067636
+      },
+      "sort_order": 435,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "00:17",
+      "has_caption": false,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 85,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12400068",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12400068/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299746,
+      "title": "Bootstrap Challenge 2 Solution",
+      "created": "2018-10-25T15:28:18Z",
+      "description": "",
+      "title_cleaned": "bootstrap-challenge-2-solution",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.14 [Updated 18.11.18] Challenge Solution Final.mp4",
+        "created": "2018-11-18T11:29:26Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 15314986
+      },
+      "sort_order": 434,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:46",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 86,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299746",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299746/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299880,
+      "title": "How to become a Better Programmer - Code Refactoring",
+      "created": "2018-10-25T15:37:02Z",
+      "description": "",
+      "title_cleaned": "how-to-become-a-better-programmer-code-refactoring",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.15 The Importance of Code Refactoring.mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831252
+      },
+      "sort_order": 433,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "07:48",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 87,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299880",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299880/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299886,
+      "title": "Put it into Practice - Refactor our Website Part 1",
+      "created": "2018-10-25T15:37:51Z",
+      "description": "",
+      "title_cleaned": "put-it-into-practice-refactor-our-website-part-1",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.15.1 [Updated 18.11.18] WEbsite REfactor.mp4",
+        "created": "2018-11-18T11:53:01Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 15315240
+      },
+      "sort_order": 432,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "19:20",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 88,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299886",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299886/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299892,
+      "title": "Advanced CSS - Combining Selectors",
+      "created": "2018-10-25T15:38:45Z",
+      "description": "",
+      "title_cleaned": "advanced-css-combining-selectors",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.16 CSS Selector Combining [Advanced CSS].mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831216
+      },
+      "sort_order": 431,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "11:43",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 89,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299892",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299892/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299902,
+      "title": "Refactoring our Website Part 2",
+      "created": "2018-10-25T15:39:26Z",
+      "description": "",
+      "title_cleaned": "refactoring-our-website-part-2",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.17 Refactoring Part 2 and CSS priority.mp4",
+        "created": "2018-11-21T17:36:45Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 15366878
+      },
+      "sort_order": 430,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "05:21",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 90,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299902",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299902/popup/"
+    },
+    {
+      "_class": "lecture",
+      "id": 12299910,
+      "title": "Advanced CSS - Selector Priority",
+      "created": "2018-10-25T15:41:06Z",
+      "description": "",
+      "title_cleaned": "advanced-css-selector-priority",
+      "is_published": true,
+      "transcript": "",
+      "is_downloadable": false,
+      "is_free": false,
+      "asset": {
+        "title": "WD5.17.1 CSS Priority [Advanced CSS].mp4",
+        "created": "2018-10-19T15:32:28Z",
+        "asset_type": "Video",
+        "_class": "asset",
+        "id": 14831310
+      },
+      "sort_order": 429,
+      "can_be_previewed": false,
+      "user": {
+        "title": "Dr. Angela Yu",
+        "name": "Dr. Angela",
+        "_class": "user",
+        "display_name": "Dr. Angela Yu"
+      },
+      "course": {
+        "id": 1565838,
+        "_class": "course",
+        "url": "/course/the-complete-web-development-bootcamp/",
+        "title": "The Complete 2021 Web Development Bootcamp"
+      },
+      "content_summary": "05:51",
+      "has_caption": true,
+      "num_supplementary_assets": 0,
+      "supplementary_assets": [],
+      "object_index": 91,
+      "url": "/course/the-complete-web-development-bootcamp/learn/lecture/12299910",
+      "curriculum_url": "/course/the-complete-web-development-bootcamp/#curriculum",
+      "preview_url": "/new-lecture/12299910/popup/"
+    }
+  ]
+}

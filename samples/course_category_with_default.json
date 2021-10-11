@@ -1,0 +1,10 @@
+{
+  "_class": "course_category",
+  "id": 288,
+  "title": "Development",
+  "url": "/courses/development/",
+  "icon_class": "udi udi-development",
+  "type": "category",
+  "title_cleaned": "development",
+  "channel_id": 1640
+}

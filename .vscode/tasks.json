@@ -3,8 +3,18 @@
 	"tasks": [
 		{
 			"label": "Compile TypeScript",
-			"type": "typescript",
-			"tsconfig": "tsconfig.json",
+			// "type": "typescript",
+			// "tsconfig": "tsconfig.json",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"テスト実行です"
+			],
+			"presentation": {
+				"reveal": "always",
+				"clear": true,
+				"echo": false
+			},
 			"problemMatcher": [
 				"$tsc"
 			],
