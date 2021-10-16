@@ -8,7 +8,6 @@ export type CourseReview = BaseSet &
 
 export type CourseReviewKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-// MEMO: Time は ISO 8601 ( e.g. '2021-09-28T08:24:03Z' )
 type BaseSet = {
   _class: 'course_review';
   id: number;
@@ -35,9 +34,6 @@ type AllSet = {
   created_formatted_with_time_since: string;
 };
 
-//
-// TODO: 謎オブジェクト
-//
 type SurveyAnswer = {
   _class: 'survey_user_answer';
   (k: typeof notCompatible[number]): any;
@@ -48,7 +44,6 @@ const notCompatible = [
   'answer_option_text',
   'answer_option_text_code',
   'data',
-  'id',
   'organization_id',
   'question_id',
   'question_order',
