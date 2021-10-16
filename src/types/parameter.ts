@@ -1,38 +1,26 @@
-type PageParams = {
-  page_size: number;
-  page: number;
-};
-
-// 課題
-// フィールド毎に key が設定可能
-// course は、courseList と courseDetail では @min の取得データが異なる
-// user は、講師 or 受講生で取得データが異なる
-type FieldKey =
-  | 'fields[course]'
-  | 'fields[user]'
-  | 'fields[course_review]'
-  | 'fields[course_category]'
-  | 'fields[course_subcategory]'
-  | 'fields[lecture]'
-  | 'fields[chapter]'
-  | 'fields[quiz]';
-type FieldBuiltinSet = '@min' | '@default' | '@all';
-
-type FieldParams = {
-  [K in FieldKey]: FieldBuiltinSet;
-};
-
-export type AffiliateApiParams = Partial<PageParams> & Partial<FieldParams>;
+import { PaginationParams } from './parameter/pagination';
+import {
+  CourseDetailField,
+  CourseListField,
+  CourseReviewListField,
+  CurriculumItemField,
+} from './parameter/field';
 
 export type CoursesParameters = {
-  query?: AffiliateApiParams;
+  query?: Partial<CourseListField> & Partial<PaginationParams>;
 };
 
 export type CourseDetailParameters = {
   course_id: number;
-  query?: AffiliateApiParams;
+  query?: Partial<CourseDetailField>;
 };
 
-export type CourseReviewListParameters = CourseDetailParameters;
+export type CourseReviewListParameters = {
+  course_id: number;
+  query?: Partial<CourseReviewListField> & Partial<PaginationParams>;
+};
 
-export type CoursePublicCurriculumItemsParameters = CourseDetailParameters;
+export type CoursePublicCurriculumItemsParameters = {
+  course_id: number;
+  query?: Partial<CurriculumItemField> & Partial<PaginationParams>;
+};
