@@ -4,7 +4,7 @@ import {
   CourseListField,
   CourseReviewListField,
   CurriculumItemField,
-} from './parameter/field';
+} from './parameter/fields';
 
 export type CoursesParameters = {
   query?: Partial<CourseListField> & Partial<PaginationParams>;
