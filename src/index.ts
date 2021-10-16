@@ -1,7 +1,12 @@
 import { AxiosResponse } from 'axios';
 
 import { AffiliateApiConfig, getConfig } from './config.js';
-import { AffiliateApiParams } from './types/parameter.js';
+import {
+  CourseDetailParameters,
+  CoursePublicCurriculumItemsParameters,
+  CourseReviewListParameters,
+  CoursesParameters,
+} from './types/parameter.js';
 import {
   CourseDetailResponse,
   CourseListResponse,
@@ -10,12 +15,9 @@ import {
 } from './types/response.js';
 
 // /courses
-type CoursesRequestParams = {
-  query?: AffiliateApiParams;
-};
 export const getCourseList = async (
   config: AffiliateApiConfig,
-  params: CoursesRequestParams
+  params: CoursesParameters
 ): Promise<AxiosResponse<CourseListResponse>> => {
   const { client, cleintConfig } = config;
   const { query } = params;
@@ -28,13 +30,9 @@ export const getCourseList = async (
 };
 
 // /courses/:id
-type CourseDetailRequestParams = {
-  course_id: number;
-  query?: AffiliateApiParams;
-};
 export const getCourseDetail = async (
   config: AffiliateApiConfig,
-  params: CourseDetailRequestParams
+  params: CourseDetailParameters
 ): Promise<AxiosResponse<CourseDetailResponse>> => {
   const { client, cleintConfig } = config;
   const { course_id, query } = params;
@@ -52,7 +50,7 @@ export const getCourseDetail = async (
 // /courses/:id/reviews
 export const getCourseReviews = async (
   config: AffiliateApiConfig,
-  params: CourseDetailRequestParams
+  params: CourseReviewListParameters
 ): Promise<AxiosResponse<CourseReviewListResponse>> => {
   const { client, cleintConfig } = config;
   const { course_id, query } = params;
@@ -70,7 +68,7 @@ export const getCourseReviews = async (
 // /courses/:id/public-curriculum-items
 export const getCoursePublicCurriculumItems = async (
   config: AffiliateApiConfig,
-  params: CourseDetailRequestParams
+  params: CoursePublicCurriculumItemsParameters
 ): Promise<AxiosResponse<CoursePublicCurriculumItemsResponse>> => {
   const { client, cleintConfig } = config;
   const { course_id, query } = params;
@@ -84,3 +82,28 @@ export const getCoursePublicCurriculumItems = async (
   );
   return response;
 };
+
+//
+// デバッグ実行用関数
+// yarn node--loader ts - node / esm./ src / index.ts
+//
+(async () => {
+  const auth = getConfig();
+  const { status, statusText, data } = await getCoursePublicCurriculumItems(
+    auth,
+    {
+      course_id: 3197760,
+      query: {
+        'fields[chapter]': '@min',
+      },
+    }
+  );
+
+  console.log('status: ', status);
+  console.log('statusText: ', statusText);
+  console.log('data: ', data.results[0]);
+  console.log('-----------------');
+})();
+//
+//
+//

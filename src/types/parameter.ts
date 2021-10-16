@@ -23,3 +23,16 @@ type FieldParams = {
 };
 
 export type AffiliateApiParams = Partial<PageParams> & Partial<FieldParams>;
+
+export type CoursesParameters = {
+  query?: AffiliateApiParams;
+};
+
+export type CourseDetailParameters = {
+  course_id: number;
+  query?: AffiliateApiParams;
+};
+
+export type CourseReviewListParameters = CourseDetailParameters;
+
+export type CoursePublicCurriculumItemsParameters = CourseDetailParameters;
