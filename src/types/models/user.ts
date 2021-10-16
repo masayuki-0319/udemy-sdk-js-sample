@@ -1,21 +1,21 @@
-export type User = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type User = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type UserKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type UserKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-type BaseKey = {
+type BaseSet = {
   _class: 'user';
 };
 
-type MinKey = {
+type MinSet = {
   title: string;
   name: string;
   display_name: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   job_title: string;
   image_50x50: string;
   image_100x100: string;
@@ -23,7 +23,7 @@ type DefaultKey = {
   url: string;
 };
 
-type AllKey = {
+type AllSet = {
   (key: typeof notCompatible[number]): any;
 };
 

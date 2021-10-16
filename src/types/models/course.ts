@@ -2,24 +2,24 @@ import { CourseCategory } from './courseCategory';
 import { CourseSubcategory } from './CourseSubcategory';
 import { User } from './user';
 
-export type Course = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type Course = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type CourseKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type CourseKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-type BaseKey = {
+type BaseSet = {
   _class: 'course';
   id: number;
 };
 
-type MinKey = {
+type MinSet = {
   title: string;
   url: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   is_paid: boolean;
   price: string;
   price_detail: {
@@ -38,7 +38,7 @@ type DefaultKey = {
   tracking_id: string;
 };
 
-type AllKey = {
+type AllSet = {
   primary_category: CourseCategory;
   primary_subcategory: CourseSubcategory;
   (k: typeof notCompatible[number]): any;

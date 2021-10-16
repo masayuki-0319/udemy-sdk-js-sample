@@ -1,22 +1,22 @@
-export type Quiz = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type Quiz = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type QuizKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type QuizKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-type BaseKey = {
+type BaseSet = {
   _class: 'quiz';
   id: number;
 };
 
-type MinKey = {
+type MinSet = {
   title: string;
   type: 'coding-exercise' | string;
   created: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   description: string;
   title_cleaned: string;
   is_published: boolean;
@@ -28,7 +28,7 @@ type DefaultKey = {
   pass_percent: number;
 };
 
-type AllKey = {
+type AllSet = {
   (key: typeof notCompatible[number]): any;
 };
 

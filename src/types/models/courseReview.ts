@@ -1,20 +1,20 @@
 import { CourseCategory } from './courseCategory';
 import { User } from './user';
 
-export type CourseReview = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type CourseReview = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type CourseReviewKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type CourseReviewKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
 // MEMO: Time は ISO 8601 ( e.g. '2021-09-28T08:24:03Z' )
-type BaseKey = {
+type BaseSet = {
   _class: 'course_review';
   id: number;
 };
 
-type MinKey = {
+type MinSet = {
   content: string;
   rating: number;
   created: string;
@@ -22,11 +22,11 @@ type MinKey = {
   user_modified: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   user: User;
 };
 
-type AllKey = {
+type AllSet = {
   course: CourseCategory;
   response: any;
   location: any;

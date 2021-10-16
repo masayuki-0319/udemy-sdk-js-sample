@@ -15,6 +15,9 @@ type FieldKey =
 
 type FieldBuiltinSet = '@min' | '@default' | '@all';
 
+type LectureFiedld = {
+  'fields[lecture]': any
+};
 type ReponseField<T extends FieldKey> = {
   [K in T]: FieldBuiltinSet;
 };

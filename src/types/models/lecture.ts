@@ -1,21 +1,21 @@
-export type Lecture = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type Lecture = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type LectureKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type LectureKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-type BaseKey = {
+type BaseSet = {
   _class: 'lecture';
   id: number;
 };
 
-type MinKey = {
+type MinSet = {
   title: string;
   created: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   description: string;
   title_cleaned: string;
   is_published: boolean;
@@ -33,7 +33,7 @@ type DefaultKey = {
   can_be_previewed: boolean;
 };
 
-type AllKey = {
+type AllSet = {
   (key: typeof notCompatible[number]): any;
 };
 

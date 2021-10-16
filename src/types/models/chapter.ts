@@ -1,27 +1,27 @@
-export type Chapter = BaseKey &
-  Partial<MinKey> &
-  Partial<DefaultKey> &
-  Partial<AllKey>;
+export type Chapter = BaseSet &
+  Partial<MinSet> &
+  Partial<DefaultSet> &
+  Partial<AllSet>;
 
-export type ChapterKeys = keyof MinKey | keyof DefaultKey | keyof AllKey;
+export type ChapterKeys = keyof MinSet | keyof DefaultSet | keyof AllSet;
 
-type BaseKey = {
+type BaseSet = {
   _class: 'chapter';
   id: number;
 };
 
-type MinKey = {
+type MinSet = {
   created: string;
 };
 
-type DefaultKey = {
+type DefaultSet = {
   sort_order: number;
   title: string;
   description: string;
   is_published: boolean;
 };
 
-type AllKey = {
+type AllSet = {
   (key: typeof notCompatible[number]): any;
 };
 
