@@ -18,7 +18,13 @@ type ListResponse<T> = {
 };
 
 //
-// /courses
+// TODO: 全ての API で query 未実装
+//       wrap して入力しやすくする機能が必要な気がする
+//       ※ fields、ページネーション、検索クエリ etc...
+//       ref: https://www.udemy.com/developers/affiliate/methods/get-courses-list/
+//
+//
+// API: コース一覧 ( /courses )
 //
 export type CoursesParameters = {
   queryParams?: Partial<CourseListField> & Partial<PaginationParams>;
@@ -35,7 +41,7 @@ export const getCourses = {
 } as const;
 
 //
-// /course/:id/reviews
+// API: コース詳細 ( /course/:id/reviews )
 //
 export type CourseDetailParameters = {
   courseID: number;
@@ -50,7 +56,7 @@ export const getCourseDetail = {
 } as const;
 
 //
-// /course/:id/reviews
+// API: コースのレビュー一覧 ( /course/:id/reviews )
 //
 export type GetCourseReviewsParams = {
   courseID: number;
@@ -65,7 +71,7 @@ export const getCourseReviews = {
 } as const;
 
 //
-// /course/:id/public-curriculum-items
+// API: コースのカリキュラム一覧 ( /course/:id/public-curriculum-items )
 //
 export type GetPublicCurriculumItemsParams = {
   courseID: number;

@@ -37,6 +37,9 @@ type AllSet = {
   (key: typeof notCompatible[number]): any;
 };
 
+//
+// TODO: 未実装の key ( 全ての設定は面倒だし、必要そうな key から実装していきたい )
+//
 const notCompatible = [
   'content_summary',
   'course',

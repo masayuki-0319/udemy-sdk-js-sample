@@ -45,7 +45,7 @@ type AllSet = {
 };
 
 //
-// TODO: 数が非常に多いため対応省略 ( 使われそうな key から実装していく )
+// TODO: 未実装の key ( 全ての設定は面倒だし、必要そうな key から実装していきたい )
 //
 const notCompatible = [
   'alternate_redirect_course_id',

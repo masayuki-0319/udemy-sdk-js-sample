@@ -42,7 +42,7 @@ export default class Client {
     this.#prefixUrl = 'https://www.udemy.com/api-2.0';
   }
 
-  public async request<ResponseBody>({
+  private async request<ResponseBody>({
     path,
     queryParams,
   }: RequestParameters): Promise<AxiosResponse<ResponseBody>> {
