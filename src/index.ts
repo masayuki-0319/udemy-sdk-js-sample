@@ -1,109 +1,97 @@
-import { AxiosResponse } from 'axios';
-
-import { AffiliateApiConfig, getConfig } from './config.js';
+import axios, { AxiosResponse } from 'axios';
+import base64 from 'base-64';
 import {
-  CourseDetailParameters,
-  CoursePublicCurriculumItemsParameters,
-  CourseReviewListParameters,
+  getCourses,
   CoursesParameters,
-} from './types/parameter.js';
-import {
+  CoursesResponse,
+  getCourseDetail,
+  CourseDetailParameters,
   CourseDetailResponse,
-  CourseListResponse,
-  CourseReviewListResponse,
-  CoursePublicCurriculumItemsResponse,
-} from './types/response.js';
+  getCourseReviews,
+  GetCourseReviewsParams,
+  GetCourseReviewsResponse,
+  getPublicCurriculumItems,
+  GetPublicCurriculumItemsParams,
+  GetPublicCurriculumItemsResponse,
+} from './types/index.js';
 
-// /courses
-export const getCourseList = async (
-  config: AffiliateApiConfig,
-  params: CoursesParameters
-): Promise<AxiosResponse<CourseListResponse>> => {
-  const { client, cleintConfig } = config;
-  const { query } = params;
-
-  const response = await client.get<CourseListResponse>('/courses', {
-    ...cleintConfig,
-    params: query,
-  });
-  return response;
+type ClientOptions = {
+  auth: {
+    clientID: string;
+    clientPassword: string;
+  };
 };
 
-// /courses/:id
-export const getCourseDetail = async (
-  config: AffiliateApiConfig,
-  params: CourseDetailParameters
-): Promise<AxiosResponse<CourseDetailResponse>> => {
-  const { client, cleintConfig } = config;
-  const { course_id, query } = params;
-
-  const response = await client.get<CourseDetailResponse>(
-    `/courses/${course_id}`,
-    {
-      ...cleintConfig,
-      params: query,
-    }
-  );
-  return response;
+type RequestParameters = {
+  path: string;
+  queryParams?: {
+    [k: string]: any;
+  };
 };
 
-// /courses/:id/reviews
-export const getCourseReviews = async (
-  config: AffiliateApiConfig,
-  params: CourseReviewListParameters
-): Promise<AxiosResponse<CourseReviewListResponse>> => {
-  const { client, cleintConfig } = config;
-  const { course_id, query } = params;
+export default class Client {
+  auth: string;
+  #prefixUrl: string;
 
-  const response = await client.get<CourseReviewListResponse>(
-    `/courses/${course_id}/reviews`,
-    {
-      ...cleintConfig,
-      params: query,
-    }
-  );
-  return response;
-};
+  public constructor(options: ClientOptions) {
+    const authToken = base64.encode(
+      `${options.auth.clientID}:${options.auth.clientPassword}`
+    );
 
-// /courses/:id/public-curriculum-items
-export const getCoursePublicCurriculumItems = async (
-  config: AffiliateApiConfig,
-  params: CoursePublicCurriculumItemsParameters
-): Promise<AxiosResponse<CoursePublicCurriculumItemsResponse>> => {
-  const { client, cleintConfig } = config;
-  const { course_id, query } = params;
+    this.auth = `Basic ${authToken}`;
+    this.#prefixUrl = 'https://www.udemy.com/api-2.0';
+  }
 
-  const response = await client.get<CoursePublicCurriculumItemsResponse>(
-    `/courses/${course_id}/public-curriculum-items`,
-    {
-      ...cleintConfig,
-      params: query,
-    }
-  );
-  return response;
-};
-
-//
-// デバッグ実行用関数
-// yarn node--loader ts - node / esm./ src / index.ts
-//
-(async () => {
-  const auth = getConfig();
-  const { status, statusText, data } = await getCoursePublicCurriculumItems(
-    auth,
-    {
-      course_id: 3197760,
-      query: {
-        'fields[chapter]': '@min',
+  public async request<ResponseBody>({
+    path,
+    queryParams,
+  }: RequestParameters): Promise<AxiosResponse<ResponseBody>> {
+    const endpoint = `${this.#prefixUrl}/${path}`;
+    const clientConfig = {
+      headers: {
+        Accept: 'application/json, text/plain, */*',
+        Authorization: this.auth,
+        'Content-Type': 'application/json;charset=utf-8',
       },
-    }
-  );
+      params: queryParams,
+    };
 
-  console.log('status: ', status);
-  console.log('statusText: ', statusText);
-  console.log('data: ', data.results[0]);
-  console.log('-----------------');
-})();
-//
-//
-//
+    return await axios.get<ResponseBody>(endpoint, clientConfig);
+  }
+
+  async getCourses(
+    args?: CoursesParameters
+  ): Promise<AxiosResponse<CoursesResponse>> {
+    return await this.request<CoursesResponse>({
+      path: getCourses.path,
+      queryParams: args?.queryParams,
+    });
+  }
+
+  async getCourseDetail(
+    args: CourseDetailParameters
+  ): Promise<AxiosResponse<CourseDetailResponse>> {
+    return await this.request<CourseDetailResponse>({
+      path: getCourseDetail.path(args.courseID),
+      queryParams: args.queryParams,
+    });
+  }
+
+  async getCourseReviews(
+    args: GetCourseReviewsParams
+  ): Promise<AxiosResponse<GetCourseReviewsResponse>> {
+    return await this.request<GetCourseReviewsResponse>({
+      path: getCourseReviews.path(args.courseID),
+      queryParams: args.queryParams,
+    });
+  }
+
+  async getPublicCurriculumItems(
+    args: GetPublicCurriculumItemsParams
+  ): Promise<AxiosResponse<GetPublicCurriculumItemsResponse>> {
+    return await this.request<GetPublicCurriculumItemsResponse>({
+      path: getPublicCurriculumItems.path(args.courseID),
+      queryParams: args.queryParams,
+    });
+  }
+}
