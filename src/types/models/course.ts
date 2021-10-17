@@ -14,6 +14,9 @@ type BaseSet = {
   id: number;
 };
 
+//
+// TODO: API によって @min の取得データが異なる ( courses と courseDetail )
+//
 type MinSet = {
   title: string;
   url: string;
