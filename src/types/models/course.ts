@@ -1,5 +1,5 @@
 import { CourseCategory } from './courseCategory';
-import { CourseSubcategory } from './CourseSubcategory';
+import { CourseSubcategory } from './courseSubcategory';
 import { User } from './user';
 
 export type Course = BaseSet &

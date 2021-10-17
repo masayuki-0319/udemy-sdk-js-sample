@@ -30,8 +30,8 @@ type RequestParameters = {
 };
 
 export default class Client {
-  auth: string;
-  #prefixUrl: string;
+  readonly auth: string;
+  readonly prefixUrl: string;
 
   public constructor(options: ClientOptions) {
     const authToken = base64.encode(
@@ -39,14 +39,14 @@ export default class Client {
     );
 
     this.auth = `Basic ${authToken}`;
-    this.#prefixUrl = 'https://www.udemy.com/api-2.0';
+    this.prefixUrl = 'https://www.udemy.com/api-2.0';
   }
 
   private async request<ResponseBody>({
     path,
     queryParams,
   }: RequestParameters): Promise<AxiosResponse<ResponseBody>> {
-    const endpoint = `${this.#prefixUrl}/${path}`;
+    const endpoint = `${this.prefixUrl}/${path}`;
     const clientConfig = {
       headers: {
         Accept: 'application/json, text/plain, */*',
